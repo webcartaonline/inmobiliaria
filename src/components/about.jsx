@@ -1,41 +1,46 @@
-import officeMeeting from '../assets/img/officeMeeting.jpg';
-import '../styles/About.css';
+import teamPhoto from '../assets/img/team.jpg';
+import '../styles/about.css';
+
+const STATS = [
+  { number: '12 AÑOS', label: 'EN GRANADA' },
+  { number: '300+',    label: 'PISOS GESTIONADOS' },
+  { number: '1200+',   label: 'ESTUDIANTES ALOJADOS' },
+];
 
 function About() {
   return (
     <section className="about">
-      <div className="about-container">
+      <div className="aboutContainer">
+
         <img
-          className="about-image"
-          src={officeMeeting}
+          className="aboutImage"
+          src={teamPhoto}
           alt="Equipo de Nido Estudiantil Granada reunido en la oficina"
         />
 
-        <div className="about-content">
-          <h2 className="about-title">
+        <div className="aboutContent">
+          <h2 className="aboutTitle">
             Expertos en logística residencial universitaria
           </h2>
-          <p className="about-description">
-            Desde 2012 transformamos la experiencia de vivir en Granada. No
-            solo alquilamos habitaciones, diseñamos comunidades para que el
+
+          <p className="aboutDescription">
+            Desde 2012 transformamos la experiencia de vivir en Granada.
+          </p>
+          <p className="aboutDescription">
+            No solo alquilamos habitaciones, diseñamos comunidades para que el
             estudiante solo se preocupe por sus metas.
           </p>
 
-          <div className="about-stats">
-            <div className="about-stat">
-              <p className="about-stat-number">12</p>
-              <p className="about-stat-label">AÑOS EN GRANADA</p>
-            </div>
-            <div className="about-stat">
-              <p className="about-stat-number">300+</p>
-              <p className="about-stat-label">PISOS GESTIONADOS</p>
-            </div>
-            <div className="about-stat">
-              <p className="about-stat-number">1200+</p>
-              <p className="about-stat-label">ESTUDIANTES ALOJADOS</p>
-            </div>
+          <div className="aboutStats">
+            {STATS.map(({ number, label }) => (
+              <div key={label}>
+                <p className="aboutStatNumber">{number}</p>
+                <p className="aboutStatLabel">{label}</p>
+              </div>
+            ))}
           </div>
         </div>
+
       </div>
     </section>
   );

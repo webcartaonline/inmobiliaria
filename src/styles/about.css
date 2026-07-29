@@ -1,9 +1,30 @@
+/* =============================================================================
+   ABOUT SECTION — Estilos exclusivos del componente <About />
+   Archivo: about.css | Componente: src/components/about.jsx
+
+   ⚠️  AVISO PARA EL EQUIPO:
+   Este archivo es el ÚNICO responsable del aspecto visual de la sección About.
+   NO sobreescribas estas clases desde App.css ni index.css.
+   Cualquier cambio en esta sección debe hacerse SOLO aquí.
+
+   Variables utilizadas (definidas en index.css):
+   - --colorSurfaceGray      → fondo de la sección (#8a8a8a)
+   - --colorText             → texto negro principal
+   - --colorTextMuted        → texto descriptivo secundario
+   - --colorFluorGreen       → color de acento en etiquetas de estadísticas
+   - --fontMono              → tipografía monoespaciada para stats
+   - --spacingXs/Sm/Md/Lg/Xl → sistema de espaciado global
+   - --maxContentWidth       → ancho máximo del contenido (1120px)
+============================================================================= */
+
+/* ── Sección principal ───────────────────────────────────────────────────── */
 .about {
-  background-color: var(--colorObsidian);
+  background-color: var(--colorSurfaceGray);
   padding: calc(var(--spacingXl) + var(--spacingLg)) 0 var(--spacingXl);
 }
 
-.about-container {
+/* ── Contenedor centrado ─────────────────────────────────────────────────── */
+.aboutContainer {
   max-width: var(--maxContentWidth);
   margin: 0 auto;
   padding: 0 var(--spacingSm);
@@ -12,58 +33,63 @@
   gap: var(--spacingLg);
 }
 
-.about-image {
+/* ── Imagen lateral ──────────────────────────────────────────────────────── */
+.aboutImage {
   flex: 1;
-  border-radius: 0;
   object-fit: cover;
   height: 340px;
   width: 100%;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.75);
 }
 
-.about-content {
+/* ── Bloque de texto ─────────────────────────────────────────────────────── */
+.aboutContent {
   flex: 1;
 }
 
-.about-title {
+.aboutTitle {
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.25;
   margin-bottom: var(--spacingSm);
 }
 
-.about-description {
+.aboutDescription {
   color: var(--colorTextMuted);
   font-size: 1rem;
-  margin-bottom: var(--spacingLg);
+  margin-bottom: var(--spacingXs);
 }
 
-.about-stats {
+/* ── Estadísticas ────────────────────────────────────────────────────────── */
+.aboutStats {
   display: flex;
   gap: var(--spacingLg);
+  margin-top: var(--spacingLg);
 }
 
-.about-stat-number {
+.aboutStatNumber {
   font-family: var(--fontMono);
-  color: var(--colorFluorGreen);
+  color: var(--colorText);
   font-size: 1.75rem;
   font-weight: 700;
 }
 
-.about-stat-label {
+.aboutStatLabel {
   font-family: var(--fontMono);
   font-size: 0.65rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: var(--colorSurfaceGray);
+  color: var(--colorFluorGreen);
   margin-top: var(--spacingXs);
 }
 
+/* ── Responsive (móvil ≤ 768px) ──────────────────────────────────────────── */
 @media (max-width: 768px) {
-  .about-container {
+  .aboutContainer {
     flex-direction: column;
   }
 
-  .about-stats {
+  .aboutStats {
     flex-wrap: wrap;
     gap: var(--spacingMd);
   }
