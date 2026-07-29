@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600;700&display=swap');
+
+.footer-container {
+  width: 100%;
+  background-color: #0d0d0d;
+  color: #c9c9c6;
+  padding: 15px 60px 20px 60px;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Título superior de la marca */
+.footer-brand h2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  font-family: 'Space Grotesk', sans-serif; 
+}
+
+/* ==========================================================================
+   2. GRID / DISTRIBUCIÓN FLEXBOX (LAS 3 COLUMNAS)
+   ========================================================================== */
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Estilo base para cada columna */
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  font-family: 'Space Grotesk', sans-serif; 
+}
+
+/* 1ª Columna (EXPLORAR) -> Alineada a la izquierda por defecto */
+.footer-column:first-child {
+  text-align: left;
+}
+
+/* 2ª Columna (CONTACTO) -> Centrada en su propio eje */
+.footer-column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* 3ª Columna (SÍGUENOS) -> Pegada completamente a la derecha */
+.footer-column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+/* ==========================================================================
+   3. ESTILOS DE TEXTO Y CONTENIDO DE LAS COLUMNAS
+   ========================================================================== */
+
+/* Títulos de columna en verde brillante */
+.column-title {
+  color: #00e600;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Lista de enlaces (EXPLORAR) */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #c9c9c6;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-links a {
+  color: #c9c9c6;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff; /* Pequeño toque: cambia a blanco brillante al pasar el ratón */
+}
+
+/* Datos de contacto (CONTACTO) */
+.contact-item {
+  color: #c9c9c6;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Iconos de redes sociales (SÍGUENOS) */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.social-circle:hover {
+  background-color: #ffffff;
+  color: #0d0d0d;
+}
+
+/* ==========================================================================
+   4. PIE INFERIOR Y COPYRIGHT
+   ========================================================================== */
+
+.footer-bottom {
+  border-top: 1px solid #1a1a1a;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.copyright {
+  color: #c9c9c6;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.legal-note {
+  color: #c9c9c6;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
