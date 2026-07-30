@@ -3,16 +3,16 @@ import "./nav.css";
 function Nav() {
   return (
     <nav className="nav">
-      <a href="#inicio" className="navLink">
+      <a href="#" className="navLink">
         Inicio
       </a>
-      <a href="#pisos" className="navLink">
+      <a href="#" className="navLink">
         Pisos
       </a>
-      <a href="#agentes" className="navLink">
+      <a href="#" className="navLink">
         Agentes
       </a>
-      <a href="#contacto" className="navLink">
+      <a href="#" className="navLink">
         Contacto
       </a>
       <button className="navCta">Reservar cita</button>
