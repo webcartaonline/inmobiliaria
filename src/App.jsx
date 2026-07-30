@@ -9,15 +9,22 @@ function App() {
                     image={images['Window.png']}
                     price="450€/MES"
                     title="Piso en el Realejo"
-                    distance="8 min a la UGR"
+                    distance="a 8 min del centro"
                     services={['WiFi 1GB', 'Climatizado']}
                 />
                 <PisoCard
                     image={images['Groound.png']}
                     price="500€/MES"
-                    title="Piso felíz navidad"
-                    distance="10 min a la UGR"
+                    title="Piso en Paseo de las flores"
+                    distance="a 15 min del centro"
                     services={['WiFi 1GB', 'Climatizado', 'Piscina']}
+                />
+                <PisoCard
+                    image={images['pentHouse.png']}
+                    price="800€/MES"
+                    title="Piso en Plaza Cristo Rey"
+                    distance="En el centro"
+                    services={['WiFi 1GB', 'Climatizado', 'Terraza']}
                 />
             </div>
         </main>
