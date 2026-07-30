@@ -1,10 +1,15 @@
 .hero {
+  background-color: #0D0D0D;
+  padding: 40px 40px 60px;
+}
+
+.heroContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  background-color: #0D0D0D;
-  padding: 60px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .heroText {
