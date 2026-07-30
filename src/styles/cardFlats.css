@@ -1,3 +1,9 @@
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
 .card {
     width: 300px;
     border-radius: 16px;
