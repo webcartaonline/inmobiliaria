@@ -1,0 +1,132 @@
+
+.footerContainer {
+  width: 100%;
+  background-color: #0d0d0d;
+  color: #c9c9c6;
+  padding: 30px 60px 20px 60px;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+.footerBrand h2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  font-family: 'Space Grotesk', sans-serif; 
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px; 
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footerColumn {
+  flex: 1 1 30%; 
+  font-family: 'Space Grotesk', sans-serif; 
+}
+
+.explorer {
+  text-align: left;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.followUs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: auto;
+}
+
+.followUs .socialIcons {
+  display: flex;
+  gap: 12px;
+}
+
+.columnTitle {
+  color: #00e600; 
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footerLinks {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.footerLinks li {
+  margin-bottom: 10px;
+}
+
+.footerLinks a {
+  color: #c9c9c6;
+  text-decoration: none; 
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  transition: color 0.2s ease;
+}
+
+.footerLinks a:hover {
+  color: #ffffff; 
+}
+
+.contactItem {
+  color: #c9c9c6;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.socialCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ffffff; 
+  border-radius: 50%;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.socialCircle:hover {
+  background-color: #ffffff;
+  color: #0d0d0d;
+}
+
+.footerBottom {
+  border-top: 1px solid #1a1a1a;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.copyright,
+.legalNote {
+  color: #c9c9c6;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  margin: 4px 0;
+  font-family: 'Inter', sans-serif;
+}
+
