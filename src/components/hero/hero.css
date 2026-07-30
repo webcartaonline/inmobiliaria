@@ -1,0 +1,45 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background-color: #0D0D0D;
+  padding: 15px 46px 30px;
+}
+
+.heroText {
+  max-width: 600px;
+}
+
+.heroTag {
+  font-family: "Inter", sans-serif;
+  color: #39FF14;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.heroTitle {
+  font-family: "Space Grotesk", sans-serif;
+  color: #F4F4F2;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.heroDescription {
+  font-family: "Inter", sans-serif;
+  color: #F4F4F2;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.heroImage {
+  width: 650px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
