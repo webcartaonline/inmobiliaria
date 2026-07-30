@@ -1,73 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600;700&display=swap');
 
-.footer-container {
+.footerContainer {
   width: 100%;
   background-color: #0d0d0d;
   color: #c9c9c6;
-  padding: 15px 60px 20px 60px;
+  padding: 30px 60px 20px 60px;
   font-family: 'Inter', sans-serif;
   box-sizing: border-box;
 }
 
-/* Título superior de la marca */
-.footer-brand h2 {
+.footerBrand h2 {
   color: #ffffff;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-family: 'Space Grotesk', sans-serif; 
 }
 
-/* ==========================================================================
-   2. GRID / DISTRIBUCIÓN FLEXBOX (LAS 3 COLUMNAS)
-   ========================================================================== */
-
-.footer-content {
+.footerContent {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 30px;
-  margin-bottom: 20px;
+  gap: 20px; 
   width: 100%;
+  box-sizing: border-box;
 }
 
-/* Estilo base para cada columna */
-.footer-column {
-  flex: 1;
-  min-width: 200px;
+.footerColumn {
+  flex: 1 1 30%; 
   font-family: 'Space Grotesk', sans-serif; 
 }
 
-/* 1ª Columna (EXPLORAR) -> Alineada a la izquierda por defecto */
-.footer-column:first-child {
+.explorer {
   text-align: left;
 }
 
-/* 2ª Columna (CONTACTO) -> Centrada en su propio eje */
-.footer-column:nth-child(2) {
+.contact {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
 }
 
-/* 3ª Columna (SÍGUENOS) -> Pegada completamente a la derecha */
-.footer-column:last-child {
+.followUs {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  text-align: right;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: auto;
 }
 
-/* ==========================================================================
-   3. ESTILOS DE TEXTO Y CONTENIDO DE LAS COLUMNAS
-   ========================================================================== */
+.followUs .socialIcons {
+  display: flex;
+  gap: 12px;
+}
 
-/* Títulos de columna en verde brillante */
-.column-title {
-  color: #00e600;
+.columnTitle {
+  color: #00e600; 
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -75,52 +65,43 @@
   font-family: 'Inter', sans-serif;
 }
 
-/* Lista de enlaces (EXPLORAR) */
-.footer-links {
-  list-style: none;
+.footerLinks {
+  list-style: none; 
   padding: 0;
   margin: 0;
-  color: #c9c9c6;
 }
 
-.footer-links li {
+.footerLinks li {
   margin-bottom: 10px;
-  font-family: 'Inter', sans-serif;
 }
 
-.footer-links a {
+.footerLinks a {
   color: #c9c9c6;
-  text-decoration: none;
+  text-decoration: none; 
   font-size: 14px;
   font-weight: bold;
+  font-family: 'Inter', sans-serif;
   transition: color 0.2s ease;
 }
 
-.footer-links a:hover {
-  color: #ffffff; /* Pequeño toque: cambia a blanco brillante al pasar el ratón */
+.footerLinks a:hover {
+  color: #ffffff; 
 }
 
-/* Datos de contacto (CONTACTO) */
-.contact-item {
+.contactItem {
   color: #c9c9c6;
   font-size: 14px;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
   font-family: 'Inter', sans-serif;
 }
 
-/* Iconos de redes sociales (SÍGUENOS) */
-.social-icons {
-  display: flex;
-  gap: 15px;
-}
-
-.social-circle {
+.socialCircle {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  border: 2px solid #ffffff;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ffffff; 
   border-radius: 50%;
   color: #ffffff;
   text-decoration: none;
@@ -129,30 +110,23 @@
   font-family: 'Inter', sans-serif;
 }
 
-.social-circle:hover {
+.socialCircle:hover {
   background-color: #ffffff;
   color: #0d0d0d;
 }
 
-/* ==========================================================================
-   4. PIE INFERIOR Y COPYRIGHT
-   ========================================================================== */
-
-.footer-bottom {
+.footerBottom {
   border-top: 1px solid #1a1a1a;
   padding-top: 20px;
   text-align: center;
 }
 
-.copyright {
+.copyright,
+.legalNote {
   color: #c9c9c6;
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 0.5px;
-  margin-bottom: 5px;
+  margin: 4px 0;
+  font-family: 'Inter', sans-serif;
 }
 
-.legal-note {
-  color: #c9c9c6;
-  font-size: 12px;
-  letter-spacing: 0.5px;
-}
