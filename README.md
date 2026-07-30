@@ -40,7 +40,11 @@ El proyecto se está desarrollando como práctica de trabajo colaborativo utiliz
 
 <img width="1920" height="816" alt="Captura_de_pantalla_2026-07-30_205251" src="https://github.com/user-attachments/assets/2687e544-b2bf-4b30-ac9b-31f51ad09cbd" />
 
+<img width="974" height="332" alt="Web_completa 2" src="https://github.com/user-attachments/assets/0186742b-0bb6-4473-ac96-7255039ed70e" />
+
 <img width="1920" height="515" alt="Captura_de_pantalla_2026-07-30_205304" src="https://github.com/user-attachments/assets/81702e57-fe05-4e1c-856d-8b91930d3995" />
+
+
 
 
 ## 🎨 Diseño en Figma  
