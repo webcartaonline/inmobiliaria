@@ -1,17 +1,28 @@
 
 
-import About from './components/About/About.jsx';
+import About from './components/About/About';
+import Footer from './components/Footer/Footer';
+import Header from './components/header/Header';
 
 function App() {
   return (
     <div className="appContainer">
+<Header />
+
+
       <main>
-        {/* ── Añade aquí los componentes de cada sección en orden ── */}
+        
         <About />
-        {/* <OtraSeccion /> */}
+        
       </main>
+
+      
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
+
+

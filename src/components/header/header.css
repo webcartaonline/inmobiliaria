@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #0D0D0D;
+}
+
+.headerLogo {
+  font-family: "Space Grotesk", sans-serif;
+  color: #F4F4F2;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
