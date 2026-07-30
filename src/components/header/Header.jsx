@@ -5,6 +5,7 @@ function Header() {
   return (
     <header className="header">
       <div className="headerLogo">Nido Estudiantil Granada</div>
+      <Nav />
     </header>
   );
 }
