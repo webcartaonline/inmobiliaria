@@ -54,9 +54,9 @@ El proyecto se está desarrollando como práctica de trabajo colaborativo utiliz
 | ------------------------- | ----------- |
 | 🌐 **Vercel**             | *Pendiente* |
 | 📄 **GitHub Pages**       | *Pendiente* |
-| 💻 **Repositorio GitHub** | *Pendiente* |
-| 📋 **GitHub Project**     | *Pendiente* |
-| 🎨 **Figma público**      | *Pendiente* |
+| 💻 **Repositorio GitHub** https://github.com/webcartaonline/inmobiliaria.git
+| 📋 **GitHub Project**     https://github.com/users/webcartaonline/projects/2
+| 🎨 **Figma público**      https://www.figma.com/design/kGMiw6fHWw5FlYSuaTx8Gn/inmobiliaria?node-id=0-1&p=f&t=C4qasP6CdzPQim9E-0
 
 ---
 
