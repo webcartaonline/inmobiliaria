@@ -1,25 +1,20 @@
 .hero {
-  background-color: #0D0D0D;
-  padding: 40px 40px 60px;
-}
-
-.heroContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  max-width: 1200px;
-  margin: 0 auto;
+  background-color: #0D0D0D;
+  padding: 15px 46px 30px;
 }
 
 .heroText {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .heroTag {
   font-family: "Inter", sans-serif;
   color: #39FF14;
-  font-size: 0.8rem;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -29,7 +24,7 @@
 .heroTitle {
   font-family: "Space Grotesk", sans-serif;
   color: #F4F4F2;
-  font-size: 2.25rem;
+  font-size: 38px;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 16px;
@@ -38,12 +33,12 @@
 .heroDescription {
   font-family: "Inter", sans-serif;
   color: #F4F4F2;
-  font-size: 1rem;
+  font-size: 18px;
   line-height: 1.5;
 }
 
 .heroImage {
-  width: 460px;
+  width: 650px;
   height: 300px;
   object-fit: cover;
   border-radius: 8px;

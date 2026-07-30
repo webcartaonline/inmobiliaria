@@ -3,10 +3,12 @@ import Hero from './components/hero/Hero';
 
 function App() {
   return (
-    <>
+    <div className="appContainer">
       <Header />
+      <main>
       <Hero />
-    </>
+      </main>
+    </div>
   );
 }
 
