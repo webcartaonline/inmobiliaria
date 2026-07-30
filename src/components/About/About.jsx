@@ -1,5 +1,5 @@
-import teamPhoto from '../assets/img/team.jpg';
-import '../styles/about.css';
+import teamPhoto from '../../assets/img/team.jpg';
+import './About.css';
 
 const STATS = [
   { number: '12 AÑOS', label: 'EN GRANADA' },
