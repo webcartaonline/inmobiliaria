@@ -1,74 +1,7 @@
-/* =============================================
-   DESIGN TOKENS – variables globales del proyecto
-   ============================================= */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap');
 
-:root {
-  /* --- Colores principales --- */
-  --colorObsidian: #0d0d0d;
-  --colorSurface: #141414;
-  --colorSurfaceGray: #8a8a8a;
-  --colorBorder: #2a2a2a;
-  --colorFluorGreen: #b6f36c;
-  --colorAccent: #b6f36c;
-
-  /* --- Texto --- */
-  --colorText: #0d0d0d;       /* negro principal */
-  --colorTextMuted: #444444;  /* gris oscuro para textos secundarios */
-
-  /* --- Tipografia --- */
-  --fontSans: 'Inter', system-ui, sans-serif;
-  --fontMono: 'JetBrains Mono', monospace;
-
-  /* --- Espaciado --- */
-  --spacingXs: 0.5rem;
-  --spacingSm: 1rem;
-  --spacingMd: 1.5rem;
-  --spacingLg: 2.5rem;
-  --spacingXl: 4rem;
-
-  /* --- Layout --- */
-  --maxContentWidth: 1120px;
-}
-
-/* =============================================
-   RESET / BASE
-   ============================================= */
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  /* Fondo base — cada sección define el suyo propio en su CSS de componente */
-  background-color: var(--colorObsidian);
-  color: var(--colorText);
-  font-family: var(--fontSans);
-  font-size: 16px;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-}
-
-#root img {
-  display: block;
-  max-width: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--colorText); /* negro — heredado de --colorText */
-  line-height: 1.25;
+    margin: 0;
 }
