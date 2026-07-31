@@ -1,5 +1,24 @@
 <img width="1983" height="793" alt="ChatGPT Image 30 jul 2026, 16_49_53" src="https://github.com/user-attachments/assets/d433c977-9aaf-4495-b670-c43343cc22f5" />
 
+
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=42&duration=2500&pause=800&color=39FF14&center=true&vCenter=true&width=900&lines=EQUIPO+HABITATCODE;DESARROLLO+WEB+%7C+UI%2FUX+%7C+IA;BUILDING+THE+FUTURE" alt="Equipo HABITATCODE" />
+</p>
+
+
+
+
+
+
+
+<p align="center">
+  <i>Profesionales comprometidos con el desarrollo de soluciones inmobiliarias digitales innovadoras.</i>
+</p>
+
+---
+
+
 # 🏢 Nido Estudiantil Granada
 
 
@@ -207,7 +226,7 @@ Un equipo comprometido con el desarrollo de soluciones web innovadoras.
     <img src="https://github.com/Marisa-Ruiz.png?size=160" width="120" style="border-radius:50%;" alt="María Luisa Ruiz Torres"/>
   </a>
   <br/><br/>
-  <b>María Luisa Ruiz Torres</b>
+  <b>Marisa Ruiz Torres</b>
   <br/><br/>
   <a href="https://github.com/Marisa-Ruiz/Marisa-Ruiz">
     <img src="https://img.shields.io/badge/GitHub-María-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub María"/>
