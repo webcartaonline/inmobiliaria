@@ -1,0 +1,235 @@
+.propertySearch {
+  --searchGreen: #39ff14;
+  --searchBackground: #e9e7e1;
+  --searchBlack: #0d0d0d;
+  --searchGray: #999999;
+  --searchWhite: #ffffff;
+
+  box-sizing: border-box;
+  width: min(1180px, calc(100% - 56px));
+  min-height: 94px;
+  margin-inline: auto;
+  padding: 16px;
+
+  display: grid;
+  grid-template-columns:
+    minmax(230px, 1.4fr)
+    minmax(180px, 1fr)
+    minmax(145px, 0.85fr)
+    minmax(115px, 0.65fr)
+    minmax(135px, auto);
+  align-items: center;
+  gap: 18px;
+
+  color: var(--searchBlack);
+  background-color: var(--searchBackground);
+  border: 3px solid var(--searchGreen);
+}
+
+.searchField {
+  min-width: 0;
+}
+
+.fieldLabel {
+  display: block;
+  min-height: 12px;
+  margin-bottom: 8px;
+
+  overflow: hidden;
+  font-family: "Roboto Mono", "Courier New", monospace;
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.selectInput {
+  box-sizing: border-box;
+  width: 100%;
+  height: 32px;
+  padding: 4px 8px;
+
+  font-family: inherit;
+  font-size: 13px;
+  color: #242424;
+  background-color: transparent;
+  border: 1px solid var(--searchGray);
+  border-radius: 0;
+}
+
+.rangeControl {
+  width: 100%;
+}
+
+.rangeInput {
+  width: 100%;
+  height: 20px;
+  margin: 0;
+
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.rangeInput::-webkit-slider-runnable-track {
+  height: 8px;
+  background: var(--searchWhite);
+  border: 1px solid #c7c7c3;
+}
+
+.rangeInput::-webkit-slider-thumb {
+  width: 12px;
+  height: 20px;
+  margin-top: -7px;
+
+  appearance: none;
+  background: var(--searchGreen);
+  border: 1px solid var(--searchBlack);
+  border-radius: 0;
+}
+
+.rangeInput::-moz-range-track {
+  height: 8px;
+  background: var(--searchWhite);
+  border: 1px solid #c7c7c3;
+}
+
+.rangeInput::-moz-range-thumb {
+  width: 12px;
+  height: 20px;
+
+  background: var(--searchGreen);
+  border: 1px solid var(--searchBlack);
+  border-radius: 0;
+}
+
+.rangeInput:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.rangeScale {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+
+  font-family: "Roboto Mono", "Courier New", monospace;
+  font-size: 7px;
+  text-transform: uppercase;
+}
+
+.priceInput {
+  box-sizing: border-box;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  border-bottom: 2px solid #aaaaaa;
+}
+
+.priceCurrency {
+  font-size: 15px;
+}
+
+.priceValueInput {
+  min-width: 0;
+  width: 100%;
+  padding: 0;
+
+  appearance: textfield;
+  font-family: inherit;
+  font-size: 14px;
+  color: #657080;
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+
+.priceValueInput::-webkit-inner-spin-button,
+.priceValueInput::-webkit-outer-spin-button {
+  margin: 0;
+  appearance: none;
+}
+
+.searchButton {
+  min-width: 135px;
+  height: 38px;
+  padding-inline: 17px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  font-family: "Roboto Mono", "Courier New", monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: var(--searchBlack);
+  background: var(--searchGreen);
+  border: 1px solid var(--searchBlack);
+  border-radius: 0;
+  cursor: pointer;
+
+  transition:
+    color 150ms ease,
+    background-color 150ms ease;
+}
+
+.searchButton:hover {
+  color: var(--searchGreen);
+  background-color: var(--searchBlack);
+}
+
+.searchIcon {
+  flex-shrink: 0;
+}
+
+.selectInput:focus-visible,
+.rangeInput:focus-visible,
+.searchButton:focus-visible {
+  outline: 2px solid var(--searchBlack);
+  outline-offset: 2px;
+}
+
+.priceInput:focus-within {
+  outline: 2px solid var(--searchBlack);
+  outline-offset: 2px;
+}
+
+@media (max-width: 1050px) {
+  .propertySearch {
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+  }
+
+  .searchButton {
+    width: 100%;
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 560px) {
+  .propertySearch {
+    width: calc(100% - 32px);
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .fieldLabel {
+    white-space: normal;
+  }
+
+  .searchButton {
+    height: 42px;
+    grid-column: auto;
+  }
+}
