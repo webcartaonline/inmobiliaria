@@ -11,7 +11,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
@@ -128,53 +127,106 @@ src/
 * Revisión colaborativa del trabajo.
 
 ---
+<h1 align="center">👥 Equipo HabitatCode</h1>
 
-## 👥 Equipo HabitatCode
+<p align="center">
+Un equipo comprometido con el desarrollo de soluciones web innovadoras.
+</p>
 
 <table align="center">
   <tr>
-    <td align="center" width="180">
+    <td align="center" width="220">
       <a href="https://github.com/apariciodiazpatricia-cell">
-        <img src="https://github.com/apariciodiazpatricia-cell.png" width="110" style="border-radius:50%;" alt="Patricia Aparicio Díaz"/>
+        <img src="https://github.com/apariciodiazpatricia-cell.png?size=160" width="120" style="border-radius:50%;" alt="Patricia Aparicio Díaz"/>
       </a>
-      <br><b>Patricia Aparicio Díaz</b>
-    </td>
-    <td align="center" width="180">
-      <a href="https://github.com/oscarmmejia/oscarmmejia">
-        <img src="https://github.com/oscarmmejia.png" width="110" style="border-radius:50%;" alt="Oscar Mauricio de Jesús Mejía Pernía"/>
+      <br/><br/>
+      <b>Patricia Aparicio Díaz</b>
+      <br/><br/>
+      <a href="https://www.linkedin.com/in/patriciaapariciodiaz">
+        <img src="https://img.shields.io/badge/LinkedIn-Patricia-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Patricia"/>
       </a>
-      <br><b>Oscar Mauricio de Jesús Mejía Pernía</b>
-    </td>
-    <td align="center" width="180">
-      <a href="https://github.com/webcartaonline">
-        <img src="https://github.com/webcartaonline.png" width="110" style="border-radius:50%;" alt="Juan Camilo Piamba Uribe"/>
+      <br/><br/>
+      <a href="https://github.com/apariciodiazpatricia-cell">
+        <img src="https://img.shields.io/badge/GitHub-Patricia-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Patricia"/>
       </a>
-      <br><b>Juan Camilo Piamba Uribe</b>
     </td>
+
+
+<td align="center" width="220">
+  <a href="https://github.com/oscarmmejia">
+    <img src="https://github.com/oscarmmejia.png?size=160" width="120" style="border-radius:50%;" alt="Oscar Mauricio de Jesús Mejía Pernía"/>
+  </a>
+  <br/><br/>
+  <b>Oscar Mauricio de Jesús Mejía Pernía</b>
+  <br/><br/>
+  <a href="https://www.linkedin.com/in/oscar-mauricio-mejia">
+    <img src="https://img.shields.io/badge/LinkedIn-Oscar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Oscar"/>
+  </a>
+  <br/><br/>
+  <a href="https://github.com/oscarmmejia/oscarmmejia">
+    <img src="https://img.shields.io/badge/GitHub-Oscar-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Oscar"/>
+  </a>
+</td>
+
+
+<td align="center" width="220">
+  <a href="https://github.com/webcartaonline">
+    <img src="https://github.com/webcartaonline.png?size=160" width="120" style="border-radius:50%;" alt="Juan Camilo Piamba Uribe"/>
+  </a>
+  <br/><br/>
+  <b>Juan Camilo Piamba Uribe</b>
+  <br/><br/>
+  <a href="https://github.com/webcartaonline">
+    <img src="https://img.shields.io/badge/GitHub-Juan-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Juan"/>
+  </a>
+</td>
+```
+
   </tr>
+
   <tr>
-    <td align="center" width="180">
+    <td align="center" width="220">
+      <br/>
+      <a href="https://github.com/carlosjper">
+        <img src="https://github.com/carlosjper.png?size=160" width="120" style="border-radius:50%;" alt="Carlos Javier Pérez Pérez"/>
+      </a>
+      <br/><br/>
+      <b>Carlos Javier Pérez Pérez</b>
+      <br/><br/>
       <a href="https://github.com/carlosjper/carlosjper">
-        <img src="https://github.com/carlosjper.png" width="110" style="border-radius:50%;" alt="Carlos Javier Pérez Pérez"/>
+        <img src="https://img.shields.io/badge/GitHub-Carlos-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Carlos"/>
       </a>
-      <br><b>Carlos Javier Pérez Pérez</b>
     </td>
-    <td align="center" width="180">
-      <a href="https://github.com/Marisa-Ruiz/Marisa-Ruiz">
-        <img src="https://github.com/Marisa-Ruiz.png" width="110" style="border-radius:50%;" alt="María Luisa Ruiz Torres"/>
-      </a>
-      <br><b>María Luisa Ruiz Torres</b>
-    </td>
-    <td></td>
+
+
+<td align="center" width="220">
+  <br/>
+  <a href="https://github.com/Marisa-Ruiz">
+    <img src="https://github.com/Marisa-Ruiz.png?size=160" width="120" style="border-radius:50%;" alt="María Luisa Ruiz Torres"/>
+  </a>
+  <br/><br/>
+  <b>María Luisa Ruiz Torres</b>
+  <br/><br/>
+  <a href="https://github.com/Marisa-Ruiz/Marisa-Ruiz">
+    <img src="https://img.shields.io/badge/GitHub-María-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub María"/>
+  </a>
+</td>
+
+<td></td>
+```
+
   </tr>
 </table>
 
 ---
 
-## 💼 LinkedIn
+<p align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%94%97-Conecta_con_el_equipo-7C3AED?style=for-the-badge" alt="Conecta con el equipo"/>
+</p>
 
-* 🔗 **Patricia Aparicio Díaz** → www.linkedin.com/in/patriciaapariciodiaz
-* 🔗 **Oscar Mauricio Mejía** → https://www.linkedin.com/in/oscar-mauricio-mejia
+<p align="center">
+Haz clic en los botones de <b>LinkedIn</b> o <b>GitHub</b> para visitar el perfil profesional y los repositorios de cada integrante.
+</p>
 
 ---
 
