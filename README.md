@@ -80,7 +80,6 @@ El proyecto se está desarrollando como práctica de trabajo colaborativo utiliz
 | Recurso | Acceso |
 |:---|:---:|
 | 🌐 **Demo en Vercel** | [Ver aplicación](https://tu-vercel.vercel.app) |
-| 📄 **GitHub Pages** | [Ver sitio web](https://tuusuario.github.io/inmobiliaria) |
 | 💻 **Repositorio GitHub** | [Abrir repositorio](https://github.com/webcartaonline/inmobiliaria.git) |
 | 📋 **GitHub Project** | [Ver tablero del proyecto](https://github.com/users/webcartaonline/projects/2) |
 | 🎨 **Diseño en Figma** | [Ver prototipo](https://www.figma.com/design/kGMiw6fHWw5FlYSuaTx8Gn/inmobiliaria?node-id=0-1&t=C4qasP6CdzPQim9E-0) |
@@ -90,21 +89,16 @@ El proyecto se está desarrollando como práctica de trabajo colaborativo utiliz
 ---
 
 
----
-
 ## 🧰 Tecnologías y herramientas utilizadas
 
-| Herramienta                   | Uso                         |
-| ----------------------------- | --------------------------- |
-| ⚛️ **React**                  | Desarrollo de la interfaz   |
-| 🎨 **CSS**                    | Estilos personalizados      |
-| 🧩 **Figma**                  | Diseño UI/UX y prototipado  |
-| 🐙 **Git & GitHub**           | Control de versiones        |
-| 📋 **GitHub Projects / Jira** | Gestión de tareas           |
-| ▲ **Vercel**                  | Despliegue de la aplicación |
-| 💻 **Visual Studio Code**     | Entorno de desarrollo       |
-
----
+| Herramienta | Uso |
+|-------------|-----|
+| ⚛️ **React** | Desarrollo de la interfaz |
+| 🖌️ **Figma** | Diseño UI/UX y prototipado |
+| 👩‍💻 **Git & GitHub** | Control de versiones |
+| 📋 **GitHub Projects / Jira** | Gestión de tareas |
+| ☁️ **Vercel** | Despliegue de la aplicación |
+| 💻 **Visual Studio Code** | Entorno de desarrollo |
 
 ## 📌 Requisitos del proyecto
 
