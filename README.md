@@ -60,14 +60,21 @@ El proyecto se está desarrollando como práctica de trabajo colaborativo utiliz
 
 ## 🚀 Enlaces del proyecto
 
-| Recurso                   | Enlace      |
-| ------------------------- | ----------- |
-| 🌐 **Vercel**             | *Pendiente* |
-| 📄 **GitHub Pages**       | *Pendiente* |
-| 💻 **Repositorio GitHub** https://github.com/webcartaonline/inmobiliaria.git
-| 📋 **GitHub Project**     https://github.com/users/webcartaonline/projects/2
-| 🎨 **Figma público**      https://www.figma.com/design/kGMiw6fHWw5FlYSuaTx8Gn/inmobiliaria?node-id=0-1&p=f&t=C4qasP6CdzPQim9E-0
+<div align="center">
 
+| Recurso | Acceso |
+|:---|:---:|
+| 🌐 **Demo en Vercel** | [Ver aplicación](https://tu-vercel.vercel.app) |
+| 📄 **GitHub Pages** | [Ver sitio web](https://tuusuario.github.io/inmobiliaria) |
+| 💻 **Repositorio GitHub** | [Abrir repositorio](https://github.com/webcartaonline/inmobiliaria.git) |
+| 📋 **GitHub Project** | [Ver tablero del proyecto](https://github.com/users/webcartaonline/projects/2) |
+| 🎨 **Diseño en Figma** | [Ver prototipo](https://www.figma.com/design/kGMiw6fHWw5FlYSuaTx8Gn/inmobiliaria?node-id=0-1&t=C4qasP6CdzPQim9E-0) |
+
+</div>
+
+---
+
+<div align="center"
 ---
 
 ## 🧰 Tecnologías y herramientas utilizadas
