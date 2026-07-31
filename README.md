@@ -46,14 +46,9 @@ El proyecto se está desarrollando como práctica de trabajo colaborativo utiliz
 
 
 
+## 🎨 Diseño en Figma
 
-## 🎨 Diseño en Figma  
-
-
-
-
-🔗 **Enlace público de Figma:**
-👉 https://www.figma.com/design/kGMiw6fHWw5FlYSuaTx8Gn/inmobiliaria?node-id=0-1&p=f&t=C4qasP6CdzPQim9E-0<img width="1665" height="887" alt="image" src="https://github.com/user-attachments/assets/f095e240-1a29-4256-b934-0ee2aca0f1f2" />
+[![Abrir Figma](https://img.shields.io/badge/Abrir%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/kGMiw6fHWw5FlYSuaTx8Gn/inmobiliaria?node-id=0-1&t=C4qasP6CdzPQim9E-0)
 
 
 ---
