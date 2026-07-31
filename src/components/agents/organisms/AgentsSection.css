@@ -1,8 +1,8 @@
 .agentsSection {
   box-sizing: border-box;
   padding: 64px 24px 72px;
-  color: #0d0d0d;
-  background-color: #f1f0eb;
+  color: #1a1a1a;
+  background-color: #e9e7e1;
   scroll-margin-top: 96px;
 }
 
@@ -26,7 +26,7 @@
 
 .agentsSubtitle {
   margin: 8px 0 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
   line-height: 1.4;
 }

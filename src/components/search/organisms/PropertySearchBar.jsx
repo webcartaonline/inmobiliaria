@@ -43,48 +43,50 @@ export function PropertySearchBar({ onSearch }) {
   }
 
   return (
-    <form
-      className="propertySearch"
-      aria-label="Filtros de búsqueda de viviendas"
-      onSubmit={handleSubmit}
-    >
-      <UniversityCenterFilter
-        value={filters.universityCenterId}
-        onChange={(event) =>
-          updateFilter(
-            "universityCenterId",
-            event.target.value,
-          )
-        }
-      />
+    <div className="propertySearchBackdrop">
+      <form
+        className="propertySearch"
+        aria-label="Filtros de búsqueda de viviendas"
+        onSubmit={handleSubmit}
+      >
+        <UniversityCenterFilter
+          value={filters.universityCenterId}
+          onChange={(event) =>
+            updateFilter(
+              "universityCenterId",
+              event.target.value,
+            )
+          }
+        />
 
-      <WalkingTimeFilter
-        value={filters.maximumWalkingMinutes}
-        disabled={!filters.universityCenterId}
-        onChange={(event) =>
-          updateFilter(
-            "maximumWalkingMinutes",
-            Number(event.target.value),
-          )
-        }
-      />
+        <WalkingTimeFilter
+          value={filters.maximumWalkingMinutes}
+          disabled={!filters.universityCenterId}
+          onChange={(event) =>
+            updateFilter(
+              "maximumWalkingMinutes",
+              Number(event.target.value),
+            )
+          }
+        />
 
-      <NeighborhoodFilter
-        value={filters.neighborhood}
-        onChange={(event) =>
-          updateFilter(
-            "neighborhood",
-            event.target.value,
-          )
-        }
-      />
+        <NeighborhoodFilter
+          value={filters.neighborhood}
+          onChange={(event) =>
+            updateFilter(
+              "neighborhood",
+              event.target.value,
+            )
+          }
+        />
 
-      <PriceFilter
-        value={filters.maximumPrice}
-        onChange={handlePriceChange}
-      />
+        <PriceFilter
+          value={filters.maximumPrice}
+          onChange={handlePriceChange}
+        />
 
-      <SearchButton />
-    </form>
+        <SearchButton />
+      </form>
+    </div>
   );
 }

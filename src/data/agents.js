@@ -19,7 +19,7 @@ export const agents = [
   },
   {
     id: "carlos-perez",
-    name: "Carlos Perez",
+    name: "Carlos Pérez",
     role: "Experiencia del residente",
     image: carlosImage,
   },
@@ -31,7 +31,7 @@ export const agents = [
   },
   {
     id: "oscar-mejia",
-    name: "Oscar Mejía",
+    name: "Óscar Mejía",
     role: "Contratos y reservas",
     image: oscarImage,
   },
