@@ -4,8 +4,8 @@ import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
-import PisoCard from './components/cardFlats/cardFlats';
-import images from './utils/images';
+import PisoCard from "./components/cardFlats/cardFlats";
+import flats from './data/dataFlats';
 
 function App() {
   return (
@@ -19,76 +19,9 @@ function App() {
 
         <h2 className="cardFlatsTittle">ESTOS PISOS TE PUEDEN INTERESAR</h2>
         <div className="cardsContainer">
-            <PisoCard
-                image={images['windows.png']}
-                price="450€/MES"
-                title="Piso en el Realejo"
-                distance="a 8 min del centro"
-                services={['WiFi 1GB', 'Climatizado']}
-            />
-            <PisoCard
-                image={images['ground.png']}
-                price="500€/MES"
-                title="Piso en Paseo de las flores"
-                distance="a 15 min del centro"
-                services={['WiFi 1GB', 'Climatizado', 'Piscina']}
-            />
-            <PisoCard
-                image={images['pentHause.png']}
-                price="800€/MES"
-                title="Piso en Plaza Cristo Rey"
-                distance="En el centro"
-                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
-            />
-            <PisoCard
-                image={images['pentHause.png']}
-                price="800€/MES"
-                title="Piso en Plaza Cristo Rey"
-                distance="En el centro"
-                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
-            />
-            <PisoCard
-                image={images['pentHause.png']}
-                price="800€/MES"
-                title="Piso en Plaza Cristo Rey"
-                distance="En el centro"
-                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
-            />
-            <PisoCard
-                image={images['pentHause.png']}
-                price="800€/MES"
-                title="Piso en Plaza Cristo Rey"
-                distance="En el centro"
-                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
-            />
-            <PisoCard
-                image={images['pentHause.png']}
-                price="800€/MES"
-                title="Piso en Plaza Cristo Rey"
-                distance="En el centro"
-                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
-            />
-            <PisoCard
-                image={images['pentHause.png']}
-                price="800€/MES"
-                title="Piso en Plaza Cristo Rey"
-                distance="En el centro"
-                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
-            />
-            <PisoCard
-                image={images['pentHause.png']}
-                price="800€/MES"
-                title="Piso en Plaza Cristo Rey"
-                distance="En el centro"
-                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
-            />
-            <PisoCard
-                image={images['pentHause.png']}
-                price="800€/MES"
-                title="Piso en Plaza Cristo Rey"
-                distance="En el centro"
-                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
-            />
+            {flats.map((flat) => (
+                <PisoCard key={flat.id} {...flat} />
+            ))}
         </div>
       </main>
 

@@ -1,4 +1,4 @@
-import '../cardFlats/cardFlats.css';
+import './cardFlats.css';
 
 function PisoCard({ image, price, title, distance, services }) {
     return (
