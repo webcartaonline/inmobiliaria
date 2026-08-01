@@ -16,6 +16,8 @@ function App() {
         <Hero />
         <PropertySearchBar />
         <About />
+
+        <h2 className="cardFlatsTittle">ESTOS PISOS TE PUEDEN INTERESAR</h2>
         <div className="cardsContainer">
             <PisoCard
                 image={images['windows.png']}
@@ -30,6 +32,55 @@ function App() {
                 title="Piso en Paseo de las flores"
                 distance="a 15 min del centro"
                 services={['WiFi 1GB', 'Climatizado', 'Piscina']}
+            />
+            <PisoCard
+                image={images['pentHause.png']}
+                price="800€/MES"
+                title="Piso en Plaza Cristo Rey"
+                distance="En el centro"
+                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
+            />
+            <PisoCard
+                image={images['pentHause.png']}
+                price="800€/MES"
+                title="Piso en Plaza Cristo Rey"
+                distance="En el centro"
+                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
+            />
+            <PisoCard
+                image={images['pentHause.png']}
+                price="800€/MES"
+                title="Piso en Plaza Cristo Rey"
+                distance="En el centro"
+                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
+            />
+            <PisoCard
+                image={images['pentHause.png']}
+                price="800€/MES"
+                title="Piso en Plaza Cristo Rey"
+                distance="En el centro"
+                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
+            />
+            <PisoCard
+                image={images['pentHause.png']}
+                price="800€/MES"
+                title="Piso en Plaza Cristo Rey"
+                distance="En el centro"
+                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
+            />
+            <PisoCard
+                image={images['pentHause.png']}
+                price="800€/MES"
+                title="Piso en Plaza Cristo Rey"
+                distance="En el centro"
+                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
+            />
+            <PisoCard
+                image={images['pentHause.png']}
+                price="800€/MES"
+                title="Piso en Plaza Cristo Rey"
+                distance="En el centro"
+                services={['WiFi 1GB', 'Climatizado', 'Terraza']}
             />
             <PisoCard
                 image={images['pentHause.png']}
