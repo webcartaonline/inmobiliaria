@@ -4,7 +4,7 @@ import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
-import PisoCard from './components/cardFlats';
+import PisoCard from './components/cardFlats/cardFlats';
 import images from './utils/images';
 
 function App() {
@@ -18,21 +18,21 @@ function App() {
         <About />
         <div className="cardsContainer">
             <PisoCard
-                image={images['window.png']}
+                image={images['windows.png']}
                 price="450€/MES"
                 title="Piso en el Realejo"
                 distance="a 8 min del centro"
                 services={['WiFi 1GB', 'Climatizado']}
             />
             <PisoCard
-                image={images['groound.png']}
+                image={images['ground.png']}
                 price="500€/MES"
                 title="Piso en Paseo de las flores"
                 distance="a 15 min del centro"
                 services={['WiFi 1GB', 'Climatizado', 'Piscina']}
             />
             <PisoCard
-                image={images['pentHouse.png']}
+                image={images['pentHause.png']}
                 price="800€/MES"
                 title="Piso en Plaza Cristo Rey"
                 distance="En el centro"
