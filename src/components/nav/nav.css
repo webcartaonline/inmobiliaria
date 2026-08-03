@@ -5,13 +5,15 @@
   background-color: #39FF14;
   padding: 10px 24px;
   border-radius: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .navLink {
   font-family: "Inter", sans-serif;
   color: #1A1A1A;
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -22,10 +24,24 @@
   color: #1A1A1A;
   background: none;
   border: none;
-  font-size: 0.85rem;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   cursor: pointer;
   margin-left: 12px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    gap: 12px;
+    padding: 8px 12px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .navCta {
+    margin-left: 0;
+    margin-top: 4px;
+  }
 }
