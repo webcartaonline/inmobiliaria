@@ -4,8 +4,7 @@ import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
-import PisoCard from "./components/cardFlats/cardFlats";
-import flats from './data/dataFlats';
+import FlatsSection from "./components/FlatsSection/FlatsSection";
 
 function App() {
   return (
@@ -16,13 +15,7 @@ function App() {
         <Hero />
         <PropertySearchBar />
         <About />
-
-        <h2 className="cardFlatsTittle">ESTOS PISOS TE PUEDEN INTERESAR</h2>
-        <div className="cardsContainer">
-            {flats.map((flat) => (
-                <PisoCard key={flat.id} {...flat} />
-            ))}
-        </div>
+        <FlatsSection />
       </main>
 
       <Footer />
