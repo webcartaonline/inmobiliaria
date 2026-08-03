@@ -1,8 +1,8 @@
-import PisoCard from '../PisoCard/PisoCard';
+import CardFlat from '../CardFlat/CardFlat';
 import flats from '../../data/dataFlats';
 import './FlatsSection.css';
 
-const MAX_FLATS_DISPLAYED = 10;
+const MAX_FLATS_DISPLAYED = 7;
 
 function FlatsSection() {
     const displayedFlats = flats.slice(0, MAX_FLATS_DISPLAYED);
@@ -13,7 +13,7 @@ function FlatsSection() {
 
             <div className="flatsSectionGrid">
                 {displayedFlats.map((flat) => (
-                    <PisoCard key={flat.id} {...flat} />
+                    <CardFlat key={flat.id} {...flat} />
                 ))}
             </div>
         </section>

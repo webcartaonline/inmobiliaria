@@ -1,15 +1,15 @@
 import dataFlats from './dataFlats.json';
 
-const flats = dataFlats.pisos.map((piso) => ({
-    id: piso.id,
-    image: piso.imagen,
-    price: `${piso.precio_mes_eur}€/MES`,
-    title: `Piso en ${piso.zona}`,
-    distance: `a ${piso.distancia_campus_km} km de ${piso.campus_mas_cercano}`,
+const flats = dataFlats.flats.map((flat) => ({
+    id: flat.id,
+    image: flat.image,
+    price: `${flat.priceMonthEur}€/MES`,
+    title: `Piso en ${flat.neighborhood}`,
+    distance: `a ${flat.distanceCampusKm} km de ${flat.nearestCampus}`,
     services: [
-        `${piso.habitaciones_piso} habitaciones`,
-        piso.companeros,
-        piso.se_permite_fumar ? 'Se permite fumar' : 'No fumadores',
+        `${flat.roomsInFlat} habitaciones`,
+        flat.roommates,
+        flat.smokingAllowed ? 'Se permite fumar' : 'No fumadores',
     ],
 }));
 

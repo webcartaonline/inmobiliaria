@@ -1,4 +1,4 @@
-.pisoCard {
+.cardFlat {
     background-color: #111111;
     width: 300px;
     overflow: hidden;
@@ -8,18 +8,18 @@
     font-family: 'Inter', sans-serif;
 }
 
-.pisoCardImageWrapper {
+.cardFlatImageWrapper {
     position: relative;
 }
 
-.pisoCardImage {
+.cardFlatImage {
     display: block;
     width: 100%;
     height: 190px;
     object-fit: cover;
 }
 
-.pisoCardPrice {
+.cardFlatPrice {
     position: absolute;
     top: 16px;
     right: 16px;
@@ -30,11 +30,11 @@
     font-weight: 700;
 }
 
-.pisoCardInfo {
+.cardFlatInfo {
     padding: 20px;
 }
 
-.pisoCardTitle {
+.cardFlatTitle {
     font-family: 'Space Grotesk', sans-serif;
     margin: 0 0 12px;
     color: #ffffff;
@@ -44,7 +44,7 @@
     letter-spacing: 0.5px;
 }
 
-.pisoCardDistance {
+.cardFlatDistance {
     font-family: 'Inter', sans-serif;
     display: flex;
     align-items: center;
@@ -57,7 +57,7 @@
     letter-spacing: 0.5px;
 }
 
-.pisoCardServices {
+.cardFlatServices {
     font-family: 'Inter', sans-serif;
     display: flex;
     gap: 16px;
