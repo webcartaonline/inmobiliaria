@@ -7,9 +7,9 @@ const flats = dataFlats.flats.map((flat) => ({
     title: `Piso en ${flat.neighborhood}`,
     distance: `a ${flat.distanceCampusKm} km de ${flat.nearestCampus}`,
     services: [
-        `${flat.roomsInFlat} habitaciones`,
+        `${flat.roomsInFlat} hab`,
         flat.roommates,
-        flat.smokingAllowed ? 'Se permite fumar' : 'No fumadores',
+        flat.smokingAllowed ? 'Fumar SI' : 'fumar NO',
     ],
 }));
 
