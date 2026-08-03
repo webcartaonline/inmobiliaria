@@ -193,7 +193,7 @@
             },
             "campus_mas_cercano": "Campus de la Salud (PTS)",
             "distancia_campus_km": 1.63,
-            "imagen": "https://loremflickr.com/800/600/apartment,room?lock=110101750",
+            "imagen": "src/assets/img/flats/calleHornoEspadero163Km4H430UE.png",
             "ver_fotos_originales": "https://www.idealista.com/inmueble/110101750/"
         },
         {
@@ -423,7 +423,7 @@
             },
             "campus_mas_cercano": "Campus de la Salud (PTS)",
             "distancia_campus_km": 1.16,
-            "imagen": "https://loremflickr.com/800/600/apartment,room?lock=109482663",
+            "imagen": "src/assets/img/flats/Zaidin1-16Km4H240EU.png",
             "ver_fotos_originales": "https://www.idealista.com/inmueble/109482663/"
         },
         {
@@ -446,7 +446,7 @@
             },
             "campus_mas_cercano": "Campus de Cartuja",
             "distancia_campus_km": 0.23,
-            "imagen": "https://loremflickr.com/800/600/apartment,room?lock=108608108",
+            "imagen": "src/assets/img/flats/campoVerde23Km4H300EU.png",
             "ver_fotos_originales": "https://www.idealista.com/inmueble/108608108/"
         },
         {
@@ -492,7 +492,7 @@
             },
             "campus_mas_cercano": "Campus de Fuentenueva",
             "distancia_campus_km": 0.63,
-            "imagen": "https://loremflickr.com/800/600/apartment,room?lock=108807809",
+            "imagen": "src/assets/img/flats/losPajaritos063Km3H300EU.png",
             "ver_fotos_originales": "https://www.idealista.com/inmueble/108807809/"
         },
         {
@@ -607,7 +607,7 @@
             },
             "campus_mas_cercano": "Campus Centro (Hospital Real)",
             "distancia_campus_km": 0.83,
-            "imagen": "https://loremflickr.com/800/600/apartment,room?lock=108561641",
+            "imagen": "src/assets/img/flats/rondaArabial083Km4H300EU.png",
             "ver_fotos_originales": "https://www.idealista.com/inmueble/108561641/"
         },
         {
@@ -768,7 +768,7 @@
             },
             "campus_mas_cercano": "Campus de Fuentenueva",
             "distancia_campus_km": 0.63,
-            "imagen": "https://loremflickr.com/800/600/apartment,room?lock=112162554",
+            "imagen": "src/assets/img/flats/losPajaritos063Km5H300EU.png",
             "ver_fotos_originales": "https://www.idealista.com/inmueble/112162554/"
         },
         {
@@ -883,7 +883,7 @@
             },
             "campus_mas_cercano": "Campus de Cartuja",
             "distancia_campus_km": 0.91,
-            "imagen": "https://loremflickr.com/800/600/apartment,room?lock=112168154",
+            "imagen": "src/assets/img/flats/sanFranciscoJavier091Km4H200EU.png",
             "ver_fotos_originales": "https://www.idealista.com/inmueble/112168154/"
         },
         {
@@ -952,7 +952,7 @@
             },
             "campus_mas_cercano": "Campus de Cartuja",
             "distancia_campus_km": 0.71,
-            "imagen": "https://loremflickr.com/800/600/apartment,room?lock=110052146",
+            "imagen": "src/assets/img/flats/caseriaMontijo071Km5H270EU.png",
             "ver_fotos_originales": "https://www.idealista.com/inmueble/110052146/"
         },
         {
@@ -1159,7 +1159,7 @@
             },
             "campus_mas_cercano": "Campus Centro (Hospital Real)",
             "distancia_campus_km": 1.09,
-            "imagen": "https://loremflickr.com/800/600/apartment,room?lock=105021446",
+            "imagen": "src/assets/img/flats/carreraVirgenPaseoSalon109Km6H400EU.png",
             "ver_fotos_originales": "https://www.idealista.com/inmueble/105021446/"
         }
     ],
