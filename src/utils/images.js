@@ -1,4 +1,4 @@
-const imageModules = import.meta.glob('../assets/img/flats/*.png', {
+const imageModules = import.meta.glob('../assets/img/flats/*.{png,jpg,jpeg,webp,svg}', {
     eager: true,
     import: 'default'
 });
@@ -8,3 +8,4 @@ const images = Object.fromEntries(
 );
 
 export default images;
+
