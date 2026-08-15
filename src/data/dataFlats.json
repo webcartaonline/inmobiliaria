@@ -32,7 +32,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.83,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=30958486",
+            "image": "src/assets/img/flats/rondaArabial083Km5H300EU.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/30958486/"
         },
         {
@@ -55,7 +55,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.06,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=110156623",
+            "image": "src/assets/img/flats/jardinBotanico006Km6H250EU.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/110156623/"
         },
         {
@@ -78,7 +78,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.64,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=30895050",
+            "image": "src/assets/img/flats/recogidas064Km5H300EU.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/30895050/"
         },
         {
@@ -101,7 +101,7 @@
             },
             "nearestCampus": "Campus de la Salud (PTS)",
             "distanceCampusKm": 1.63,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=110104566",
+            "image": "src/assets/img/flats/figares163Km6H490EU.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/110104566/"
         },
         {
@@ -124,7 +124,7 @@
             },
             "nearestCampus": "Campus de Cartuja",
             "distanceCampusKm": 0.71,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=34366033",
+            "image": "src/assets/img/flats/caseriaMontijo071Km3H270EU.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/34366033/"
         },
         {
@@ -147,7 +147,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.22,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=107690558",
+            "image": "src/assets/img/flats/granCapitan022Km6H500EU.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/107690558/"
         },
         {
@@ -170,7 +170,7 @@
             },
             "nearestCampus": "Campus de Aynadamar (ETSIIT)",
             "distanceCampusKm": 0.88,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=104776240",
+            "image": "src/assets/img/flats/laChana088Km3H295EU.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/104776240/"
         },
         {
@@ -216,7 +216,7 @@
             },
             "nearestCampus": "Campus de Cartuja",
             "distanceCampusKm": 1.31,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=105689345",
+            "image": "src/assets/img/flats/juaquina083Km4H390EU.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/105689345/"
         },
         {
@@ -239,7 +239,7 @@
             },
             "nearestCampus": "Campus de Fuentenueva",
             "distanceCampusKm": 0.34,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=110284947",
+            "image": "src/assets/img/flats/sanIldefonso034Km6H297EU.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/110284947/"
         },
         {
@@ -377,7 +377,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.83,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=111995945",
+            "image": "src/assets/img/flats/PisoRonda.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/111995945/"
         },
         {
@@ -607,7 +607,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.83,
-            "image": "src/assets/img/flats/rondaArabial083Km4H300EU.png",
+            "image": "src/assets/img/flats/pisoRonda.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/108561641/"
         },
         {
