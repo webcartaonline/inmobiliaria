@@ -13,7 +13,7 @@ function App() {
 
       <main>
         <Hero />
-        <PropertySearchBar />
+        {/* <PropertySearchBar /> */}
         <About />
         <AgentsSection />
       </main>
