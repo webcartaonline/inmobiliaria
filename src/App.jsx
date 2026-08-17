@@ -5,6 +5,7 @@ import { AgentsSection } from "./components/agents/organisms/AgentsSection";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
+import FlatsSection from "./components/FlatsSection/FlatsSection";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         {/* <PropertySearchBar /> */}
         <About />
+        <FlatsSection />
         <AgentsSection />
       </main>
 

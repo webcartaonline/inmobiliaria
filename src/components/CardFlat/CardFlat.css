@@ -1,0 +1,83 @@
+.cardFlat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #111111;
+    width: 300px;
+    overflow: hidden;
+
+    margin: 0px 0px 0px 0px;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.cardFlatImageWrapper {
+    position: relative;
+}
+
+.cardFlatImage {
+    display: block;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.cardFlatPrice {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 6px 10px;
+    background-color: var(--accent, #b4ff2e);
+    color: #111111;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cardFlatInfo {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+}
+
+.cardFlatTitle {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0 0 10px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.cardFlatDistance {
+    font-family: 'Inter', sans-serif;
+    margin: 0px 0px 0px 0px;
+    color: var(--accent, #b4ff2e);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.cardFlatServices {
+    display: flex;
+    justify-content: space-around;
+
+    gap: 16px;
+
+    margin: 20px 0 0;
+    padding: 0;
+
+    list-style: none;
+
+    color: #777777;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
