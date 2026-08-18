@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./nav.css";
 
 function Nav() {
@@ -6,9 +7,9 @@ function Nav() {
       <a href="#" className="navLink">
         Inicio
       </a>
-      <a href="#" className="navLink">
+      <Link to="/pisos" className="navLink">
         Pisos
-      </a>
+      </Link>
       <a href="#agentes" className="navLink">
         Agentes
       </a>
