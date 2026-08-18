@@ -9,7 +9,7 @@ function Nav() {
       <a href="#" className="navLink">
         Pisos
       </a>
-      <a href="#" className="navLink">
+      <a href="#agentes" className="navLink">
         Agentes
       </a>
       <a href="#" className="navLink">
