@@ -2,7 +2,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footerContainer">
+    <footer id="contacto" className="footerContainer">
             
       <div className="footerBrand">
         <h2>NIDO ESTUDIANTIL GRANADA</h2>

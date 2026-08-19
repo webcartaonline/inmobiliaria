@@ -1,0 +1,316 @@
+.agentsPage {
+  --agents-black: #101211;
+  --agents-green: #39ff14;
+  --agents-paper: #e7e8e8;
+  color: #f5f5f2;
+  background: var(--agents-black);
+}
+
+.agentsPage,
+.agentsPage * {
+  box-sizing: border-box;
+}
+
+.agentsHero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 570px;
+}
+
+.agentsHeroCopy,
+.agentsHeroMedia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.agentsHeroCopy {
+  padding: clamp(56px, 8vw, 122px);
+}
+
+.agentsEyebrow,
+.agentsCta > p {
+  margin: 0 0 22px;
+  color: var(--agents-green);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.agentsHero h1,
+.agentsIntro h2,
+.agentsTeam h2,
+.agentsCta h2,
+.agentsProfile h3 {
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+}
+
+.agentsHero h1 {
+  margin: 0;
+  font-size: clamp(3.1rem, 6.2vw, 6.8rem);
+  font-weight: 600;
+  line-height: 0.83;
+  letter-spacing: -0.06em;
+}
+
+.agentsHeroText {
+  width: min(430px, 100%);
+  margin: 32px 0 0;
+  color: #b7b9b7;
+  font: 400 0.78rem/1.65 "Inter", sans-serif;
+}
+
+.agentsHeroMedia {
+  margin: 0;
+  padding: clamp(46px, 7vw, 96px);
+  border-left: 1px solid #343735;
+}
+
+.agentsHeroMedia img {
+  display: block;
+  width: 100%;
+  height: min(430px, 34vw);
+  min-height: 300px;
+  object-fit: cover;
+}
+
+.agentsIntro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #101211;
+  background: var(--agents-paper);
+}
+
+.agentsIntroCopy {
+  padding: clamp(48px, 6vw, 86px) clamp(28px, 8vw, 122px);
+}
+
+.agentsIntro h2 {
+  margin: 0 0 28px;
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.agentsIntroCopy p {
+  max-width: 560px;
+  margin: 0;
+  font: 400 0.76rem/1.7 "Inter", sans-serif;
+}
+
+.agentsStats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 0;
+  padding: clamp(48px, 6vw, 86px) clamp(28px, 6vw, 86px);
+  border-left: 1px solid #c6c8c7;
+}
+
+.agentsStat dt {
+  color: #145b2e;
+  font: 400 clamp(1.8rem, 3vw, 3rem)/1 "Space Grotesk", sans-serif;
+}
+
+.agentsStat dd {
+  margin: 12px 0 0;
+  font: 600 0.55rem/1.4 "Inter", sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.agentsTeam {
+  padding: clamp(62px, 7vw, 105px) clamp(28px, 5vw, 76px) clamp(72px, 8vw, 126px);
+}
+
+.agentsTeam > h2 {
+  margin: 0 0 48px;
+  font-size: clamp(1.45rem, 2.4vw, 2.5rem);
+  line-height: 1;
+}
+
+.agentsTeamGrid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(10px, 1.7vw, 26px);
+}
+
+.agentsProfile {
+  min-width: 0;
+  border: 1px solid #2e312f;
+  background: #151716;
+}
+
+.agentsProfile img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 0.84;
+  object-fit: cover;
+  object-position: center top;
+  filter: saturate(0.82);
+}
+
+.agentsProfileBody {
+  min-height: 158px;
+  padding: 18px 16px;
+  border-top: 1px solid #2e312f;
+}
+
+.agentsProfile h3 {
+  margin: 0;
+  font-size: clamp(0.75rem, 1.2vw, 1rem);
+  line-height: 1.05;
+}
+
+.agentsProfile p {
+  min-height: 32px;
+  margin: 10px 0 22px;
+  color: var(--agents-green);
+  font: 500 0.58rem/1.45 "Inter", sans-serif;
+}
+
+.agentsProfile a {
+  color: #b8bbb8;
+  font: 600 0.55rem/1 "Inter", sans-serif;
+  letter-spacing: 0.07em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.agentsProfile a span {
+  color: var(--agents-green);
+  margin-left: 5px;
+}
+
+.agentsCta {
+  padding: clamp(90px, 12vw, 170px) 24px;
+  text-align: center;
+  border-top: 1px solid #242725;
+}
+
+.agentsCta > p {
+  margin-bottom: 25px;
+}
+
+.agentsCta h2 {
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 5.1rem);
+  line-height: 0.88;
+  letter-spacing: -0.055em;
+}
+
+.agentsCtaActions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 42px;
+}
+
+.agentsCtaActions a {
+  min-width: 135px;
+  padding: 14px 20px;
+  font: 700 0.62rem/1 "Inter", sans-serif;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: transform 160ms ease, background-color 160ms ease;
+}
+
+.agentsCtaActions a:hover {
+  transform: translateY(-2px);
+}
+
+.agentsPrimaryButton {
+  color: #101211;
+  background: var(--agents-green);
+  border: 1px solid var(--agents-green);
+}
+
+.agentsSecondaryButton {
+  color: #f5f5f2;
+  border: 1px solid #777a78;
+}
+
+@media (max-width: 900px) {
+  .agentsHero {
+    min-height: auto;
+  }
+
+  .agentsHeroCopy,
+  .agentsHeroMedia {
+    padding: 58px 34px;
+  }
+
+  .agentsTeamGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 680px) {
+  .agentsHero,
+  .agentsIntro {
+    grid-template-columns: 1fr;
+  }
+
+  .agentsHeroMedia {
+    padding-top: 0;
+    border-left: 0;
+  }
+
+  .agentsHeroMedia img {
+    height: 62vw;
+    min-height: 240px;
+  }
+
+  .agentsStats {
+    border-top: 1px solid #c6c8c7;
+    border-left: 0;
+  }
+
+  .agentsTeamGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 420px) {
+  .agentsHeroCopy,
+  .agentsHeroMedia,
+  .agentsIntroCopy,
+  .agentsStats,
+  .agentsTeam {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .agentsStats {
+    gap: 14px;
+  }
+
+  .agentsStat dt {
+    font-size: 1.45rem;
+  }
+
+  .agentsStat dd {
+    font-size: 0.46rem;
+  }
+
+  .agentsTeamGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .agentsProfile img {
+    aspect-ratio: 1.35;
+  }
+
+  .agentsCtaActions {
+    align-items: stretch;
+    flex-direction: column;
+    max-width: 220px;
+    margin-inline: auto;
+    margin-top: 34px;
+  }
+}

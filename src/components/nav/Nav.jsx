@@ -1,21 +1,24 @@
 import "./nav.css";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
     <nav className="nav">
-      <a href="#" className="navLink">
+      <NavLink to="/" className="navLink">
         Inicio
-      </a>
-      <a href="#" className="navLink">
+      </NavLink>
+      <NavLink to="/flats" className="navLink">
         Pisos
-      </a>
-      <a href="#agentes" className="navLink">
+      </NavLink>
+      <NavLink to="/agents" className="navLink">
         Agentes
-      </a>
-      <a href="#" className="navLink">
+      </NavLink>
+      <a href="#contacto" className="navLink">
         Contacto
       </a>
-      <button className="navCta">Reservar cita</button>
+      <a className="navCta" href="mailto:info@nidoestudiantil.com">
+        Reservar cita
+      </a>
     </nav>
   );
 }

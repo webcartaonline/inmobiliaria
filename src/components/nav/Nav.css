@@ -30,6 +30,7 @@
   letter-spacing: 0.5px;
   cursor: pointer;
   margin-left: 12px;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
