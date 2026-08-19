@@ -1,7 +1,10 @@
-import FlatsSection from "../components/flatsSection/FlatsSection";
-
 function Flats() {
-  return <FlatsSection />;
+  return (
+    <main>
+      <h1>Pisos</h1>
+      <p>Página de pisos en construcción.</p>
+    </main>
+  );
 }
 
 export default Flats;
