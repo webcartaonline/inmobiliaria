@@ -1,6 +1,6 @@
 import CardFlat from "../components/cardflat/CardFlat";
 import flats from "../data/dataFlats";
-import "./Flats.css";
+import "../styles/flats.css";
 
 function Flats() {
     return (

@@ -262,7 +262,7 @@
             },
             "nearestCampus": "Campus de Fuentenueva",
             "distanceCampusKm": 0.34,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=111894616",
+            "image": "src/assets/img/flats/Granada310EU3H034Km.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/111894616/"
         },
         {
@@ -285,7 +285,7 @@
             },
             "nearestCampus": "Campus de la Salud (PTS)",
             "distanceCampusKm": 1.16,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=110380162",
+            "image": "src/assets/img/flats/Granada450EU4H116Km.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/110380162/"
         },
         {
@@ -308,7 +308,7 @@
             },
             "nearestCampus": "Campus de Cartuja",
             "distanceCampusKm": 0.71,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=37832083",
+            "image": "src/assets/img/flats/Granada295EU3H071Km.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/37832083/"
         },
         {
@@ -331,7 +331,7 @@
             },
             "nearestCampus": "Campus de la Salud (PTS)",
             "distanceCampusKm": 1.63,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=110873663",
+            "image": "src/assets/img/flats/GranadaFigueras440EU6H163Km.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/110873663/"
         },
         {
@@ -354,7 +354,7 @@
             },
             "nearestCampus": "Campus de Aynadamar (ETSIIT)",
             "distanceCampusKm": 0.88,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=111697081",
+            "image": "src/assets/img/flats/GrandaLachana300EU2H088Km.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/111697081/"
         },
         {
@@ -400,7 +400,7 @@
             },
             "nearestCampus": "Campus de Fuentenueva",
             "distanceCampusKm": 0.34,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=112011473",
+            "image": "src/assets/img/flats/GranadaSanIldefonso240EU4H034Km.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/112011473/"
         },
         {
@@ -469,7 +469,7 @@
             },
             "nearestCampus": "Campus de Cartuja",
             "distanceCampusKm": 0.23,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=112013830",
+            "image": "src/assets/img/flats/granadaCampoVerde2004023.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/112013830/"
         },
         {
@@ -515,7 +515,7 @@
             },
             "nearestCampus": "Campus de la Salud (PTS)",
             "distanceCampusKm": 1.63,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=110358978",
+            "image": "src/assets/img/flats/granadaFigares3403163.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/110358978/"
         },
         {
@@ -538,7 +538,7 @@
             },
             "nearestCampus": "Campus de Aynadamar (ETSIIT)",
             "distanceCampusKm": 0.88,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=107091372",
+            "image": "src/assets/img/flats/GrandaLachana300EU2H088Km.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/107091372/"
         },
         {
@@ -561,7 +561,7 @@
             },
             "nearestCampus": "Campus de Fuentenueva",
             "distanceCampusKm": 0.8,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=111968128",
+            "image": "src/assets/img/flats/granadaRosaleda350208.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/111968128/"
         },
         {
@@ -584,7 +584,7 @@
             },
             "nearestCampus": "Campus de la Salud (PTS)",
             "distanceCampusKm": 1.16,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=108782465",
+            "image": "src/assets/img/flats/granadaZaidin3653116.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/108782465/"
         },
         {
@@ -630,7 +630,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.83,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=108321743",
+            "image": "src/assets/img/flats/granadaRonda6653083.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/108321743/"
         },
         {
@@ -653,7 +653,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.64,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=108078603",
+            "image": "src/assets/img/flats/granadaRecogidas4505064.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/108078603/"
         },
         {
@@ -676,7 +676,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 1.29,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=108770484",
+            "image": "src/assets/img/flats/granadaMolinos3205129.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/108770484/"
         },
         {
@@ -699,7 +699,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.06,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=108307474",
+            "image": "src/assets/img/flats/granadaJARDIN4506006.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/108307474/"
         },
         {
@@ -722,7 +722,7 @@
             },
             "nearestCampus": "Campus de Aynadamar (ETSIIT)",
             "distanceCampusKm": 0.88,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=108908288",
+            "image": "src/assets/img/flats/GranadaLaChana3004088.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/108908288/"
         },
         {
@@ -745,7 +745,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.26,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=98503510",
+            "image": "src/assets/img/flats/granVia3903026.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/98503510/"
         },
         {
@@ -791,7 +791,7 @@
             },
             "nearestCampus": "Campus de la Salud (PTS)",
             "distanceCampusKm": 1.16,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=112168424",
+            "image": "src/assets/img/flats/cervantes3003116.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/112168424/"
         },
         {
@@ -814,7 +814,7 @@
             },
             "nearestCampus": "Campus de Aynadamar (ETSIIT)",
             "distanceCampusKm": 1.13,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=112170427",
+            "image": "src/assets/img/flats/laCruz2805116.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/112170427/"
         },
         {
@@ -837,7 +837,7 @@
             },
             "nearestCampus": "Campus de Cartuja",
             "distanceCampusKm": 1.05,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=111552158",
+            "image": "src/assets/img/flats/Albacin3505105.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/111552158/"
         },
         {
@@ -860,7 +860,7 @@
             },
             "nearestCampus": "Campus de Cartuja",
             "distanceCampusKm": 1.31,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=109497357",
+            "image": "src/assets/img/flats/Joaquina3104131.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/109497357/"
         },
         {
@@ -906,7 +906,7 @@
             },
             "nearestCampus": "Campus de Cartuja",
             "distanceCampusKm": 0.71,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=105670918",
+            "image": "src/assets/img/flats/PuertaGuzamanes2053071.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/105670918/"
         },
         {
@@ -929,7 +929,7 @@
             },
             "nearestCampus": "Campus de Fuentenueva",
             "distanceCampusKm": 0.63,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=108642143",
+            "image": "src/assets/img/flats/PlazaToros2103063.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/108642143/"
         },
         {
@@ -975,7 +975,7 @@
             },
             "nearestCampus": "Campus de Cartuja",
             "distanceCampusKm": 1.31,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=111551262",
+            "image": "src/assets/img/flats/joaquina3904131.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/111551262/"
         },
         {
@@ -998,7 +998,7 @@
             },
             "nearestCampus": "Campus de Aynadamar (ETSIIT)",
             "distanceCampusKm": 0.88,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=101852447",
+            "image": "src/assets/img/flats/laChana2953088.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/101852447/"
         },
         {
@@ -1021,7 +1021,7 @@
             },
             "nearestCampus": "Campus de la Salud (PTS)",
             "distanceCampusKm": 1.63,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=112123146",
+            "image": "src/assets/img/flats/figares3752163.jpg",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/112123146/"
         },
         {
@@ -1044,7 +1044,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.22,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=112114240",
+            "image": "src/assets/img/flats/GranCapitan3503022.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/112114240/"
         },
         {
@@ -1067,7 +1067,7 @@
             },
             "nearestCampus": "Campus de Fuentenueva",
             "distanceCampusKm": 0.63,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=111014978",
+            "image": "src/assets/img/flats/plazaToro3004063.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/111014978/"
         },
         {
@@ -1090,7 +1090,7 @@
             },
             "nearestCampus": "Campus de Cartuja",
             "distanceCampusKm": 1.31,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=105533917",
+            "image": "src/assets/img/flats/Joaquina3904131.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/105533917/"
         },
         {
@@ -1113,7 +1113,7 @@
             },
             "nearestCampus": "Campus Centro (Hospital Real)",
             "distanceCampusKm": 0.83,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=111589297",
+            "image": "src/assets/img/flats/RondaArabial4003083.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/111589297/"
         },
         {
@@ -1136,7 +1136,7 @@
             },
             "nearestCampus": "Campus de Aynadamar (ETSIIT)",
             "distanceCampusKm": 0.88,
-            "image": "https://loremflickr.com/800/600/apartment,room?lock=111753624",
+            "image": "src/assets/img/flats/laChana3904088.png",
             "originalPhotosUrl": "https://www.idealista.com/inmueble/111753624/"
         },
         {
