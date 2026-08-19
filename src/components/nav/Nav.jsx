@@ -7,7 +7,7 @@ function Nav() {
       <a href="#" className="navLink">
         Inicio
       </a>
-      <Link to="/pisos" className="navLink">
+      <Link to="/flats" className="navLink">
         Pisos
       </Link>
       <a href="#agentes" className="navLink">
