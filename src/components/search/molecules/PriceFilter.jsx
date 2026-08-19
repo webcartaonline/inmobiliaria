@@ -11,7 +11,7 @@ export function PriceFilter({ value, onChange }) {
       <PriceInput
         id="maximumPrice"
         value={value}
-        onChange={onChange}
+        onChange={(event) => onChange(event.target.value)}
       />
     </div>
   );

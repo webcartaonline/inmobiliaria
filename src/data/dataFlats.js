@@ -12,6 +12,13 @@ const getFlatImage = (imagePath) => {
 
 const flats = dataFlats.flats.map((flat) => ({
     id: flat.id,
+
+    // Raw fields used by the search filters.
+    neighborhood: flat.neighborhood,
+    priceMonthEur: flat.priceMonthEur,
+    coordinates: flat.coordinates,
+
+    // Display fields consumed by <CardFlat />.
     image: getFlatImage(flat.image),
     price: `${flat.priceMonthEur}€/MES`,
     title: `Piso en ${flat.neighborhood}`,
@@ -24,4 +31,3 @@ const flats = dataFlats.flats.map((flat) => ({
 }));
 
 export default flats;
-

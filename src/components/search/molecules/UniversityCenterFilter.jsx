@@ -12,7 +12,7 @@ export function UniversityCenterFilter({ value, onChange }) {
       <Select
         id="universityCenter"
         value={value}
-        onChange={onChange}
+        onChange={(event) => onChange(event.target.value)}
       >
         <option value="">Cualquier centro UGR</option>
 
