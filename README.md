@@ -113,30 +113,40 @@ Página desarrollada mediante el consumo de la API pública TheMealDB, donde se 
 
 ---
 
-
 ## 🧰 Tecnologías y herramientas utilizadas
 
 | Herramienta | Uso |
 |-------------|-----|
-| ⚛️ **React** | Desarrollo de la interfaz |
-| 🖌️ **Figma** | Diseño UI/UX y prototipado |
-| 👩‍💻 **Git & GitHub** | Control de versiones |
-| 📋 **GitHub Projects / Jira** | Gestión de tareas |
-| ☁️ **Vercel** | Despliegue de la aplicación |
-| 💻 **Visual Studio Code** | Entorno de desarrollo |
+| ⚛️ **React** | Desarrollo de la interfaz y creación de componentes reutilizables |
+| 🛣️ **React Router DOM** | Gestión de rutas y navegación entre páginas |
+| ⚡ **Vite** | Entorno de desarrollo y construcción del proyecto |
+| 🖌️ **Figma** | Diseño UI/UX, wireframes y prototipado |
+| 🔌 **TheMealDB API** | Consumo de datos para la página del restaurante |
+| 👩‍💻 **Git & GitHub** | Control de versiones y trabajo colaborativo |
+| 🌿 **Conventional Commits** | Organización y trazabilidad de cambios en el repositorio |
+| 📋 **GitHub Projects / Jira** | Gestión de tareas, planificación y seguimiento del proyecto |
+| ☁️ **Vercel** | Despliegue y publicación de la aplicación |
+| 💻 **Visual Studio Code** | Entorno principal de desarrollo |
+| 🧹 **Clean Code** | Aplicación de buenas prácticas de desarrollo y mantenimiento |
+| 📱 **Responsive Design** | Adaptación de la interfaz a dispositivos móviles y escritorio |
 
-## 📌 Requisitos del proyecto
+Características destacadas.
 
-El desarrollo sigue los requisitos establecidos en el ejercicio académico:
+Diseño basado en prototipos de Figma.
 
-* Diseño previo en **Figma**.
-* Desarrollo con **React**.
-* Uso de **CSS** para los estilos.
-* Estructura semántica con **Header**, **Main** y **Footer**.
-* Gestión del trabajo mediante **GitHub Projects / Jira**.
-* Despliegue público en **Vercel**.
-* Uso de **Conventional Commits** y ramas organizadas.
-* Atención especial a la estructura del código y al trabajo en equipo.
+Arquitectura basada en componentes reutilizables.
+
+Navegación entre páginas mediante React Router.
+
+Diseño responsive para escritorio, tablet y móvil.
+
+Consumo de API externa.
+
+Código organizado siguiendo principios de Clean Code.
+
+Uso de control de versiones mediante Git y GitHub.
+
+Despliegue en producción mediante Vercel.
 
 Más allá de cumplir los requisitos técnicos, el objetivo del equipo es construir una aplicación bien organizada, visualmente coherente y fácil de mantener.
 
@@ -259,6 +269,7 @@ Haz clic en los botones de <b>LinkedIn</b> o <b>GitHub</b> para visitar el perfi
 🏁 Resultado final
 El resultado es una plataforma web completa, funcional, responsive y visualmente coherente que permite a los estudiantes consultar pisos compartidos disponibles en Granada, conocer a los agentes, explorar la historia de la inmobiliaria y disfrutar de un valor añadido con la sección de gastronomía española local.
 
+En resumen, una plataforma que reúne todos los requisitos propuestos en el ejercicio, ofreciendo una experiencia coherente y moderna para estudiantes que buscan alojamiento compartido en Granada, además de mostrar la capacidad del equipo para trabajar de forma colaborativa en un proyecto real utilizando tecnologías actuales del ecosistema frontend.
 
 
 <p align="center">
