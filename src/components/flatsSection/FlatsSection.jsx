@@ -1,4 +1,4 @@
-import CardFlat from '../CardFlat/CardFlat';
+import CardFlat from '../cardFlat/CardFlat';
 import flats from '../../data/dataFlats';
 import './FlatsSection.css';
 

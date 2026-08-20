@@ -1,4 +1,4 @@
-import CardFlat from "../components/cardflat/CardFlat";
+import CardFlat from "../components/cardFlat/CardFlat";
 import { PropertySearchBar } from "../components/search/organisms/PropertySearchBar";
 import { useFlatFilters } from "../hooks/useFlatFilters";
 import "../styles/flats.css";
