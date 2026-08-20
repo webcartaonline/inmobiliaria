@@ -88,7 +88,7 @@ Página principal de bienvenida donde se presenta la ciudad de Granada, informac
 
 Presentación del equipo inmobiliario mediante fichas informativas con imagen, nombre y datos representativos de cada agente.
 
-📖 Historia
+📖 Nuestra historia
 
 Sección corporativa que explica el origen, evolución y valores de Nido Estudiantil Granada, reforzando la identidad y confianza de la marca.
 
