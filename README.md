@@ -209,18 +209,14 @@ Haz clic en los botones de <b>LinkedIn</b> o <b>GitHub</b> para visitar el perfi
 
 ---
 
-## 📸 Estado actual del proyecto
+📸 Estado actual del proyecto
 
-> 🚧 El proyecto se encuentra actualmente en fase de desarrollo activo.
-> La interfaz principal ya ha sido diseñada en Figma y se está implementando progresivamente en React siguiendo la planificación de los sprints.
+✅ Proyecto Finalizado: La aplicación se encuentra totalmente desarrollada, probada y desplegada en producción. Todas las páginas funcionales y características solicitadas han sido implementadas con éxito siguiendo los estándares de diseño y código limpio.
 
----
+🏁 Resultado final
+El resultado es una plataforma web completa, funcional, responsive y visualmente coherente que permite a los estudiantes consultar pisos compartidos disponibles en Granada, conocer a los agentes, explorar la historia de la inmobiliaria y disfrutar de un valor añadido con la sección de gastronomía española local.
 
-## 🏁 Resultado esperado
 
-El objetivo final es entregar una aplicación web funcional, responsive y visualmente coherente que permita a estudiantes consultar pisos compartidos disponibles en Granada de forma sencilla y atractiva.
-
----
 
 <p align="center">
   <b>HabitatCode</b> · Desarrollo web colaborativo · 2026
