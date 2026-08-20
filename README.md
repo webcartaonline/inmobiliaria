@@ -109,7 +109,12 @@ Más allá de cumplir los requisitos técnicos, el objetivo del equipo es constr
 
 ---
 
-inmobiliaria/
+📂 Estructura del Proyecto
+El código fuente se encuentra estructurado bajo una arquitectura modular y escalable, garantizando la mantenibilidad y legibilidad del sistema:
+
+
+
+```inmobiliaria/
 ├── public/
 ├── src/
 │   ├── assets/
