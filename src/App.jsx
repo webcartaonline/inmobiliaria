@@ -1,7 +1,6 @@
 
 import "./styles/App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import { Routes, Route } from "react-router-dom";
 // Componentes fijos (comunes a todas las páginas)
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";

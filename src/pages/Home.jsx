@@ -1,8 +1,17 @@
-const Home = () => {
+import Hero from '../components/hero/Hero';
+import About from '../components/about/About';
+import FlatsSection from '../components/flatsSection/FlatsSection';
+import { AgentsSection } from '../components/agents/organisms/AgentsSection';
+
+function Home() {
   return (
-    <h1 className="text-3xl font-bold text-center mt-10">
-        Home
-      </h1>
-  )
+    <>
+      <Hero />
+      <About />
+      <FlatsSection limit={4} />
+      <AgentsSection />
+    </>
+  );
 }
+
 export default Home;

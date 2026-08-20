@@ -2,10 +2,10 @@ import CardFlat from '../CardFlat/CardFlat';
 import flats from '../../data/dataFlats';
 import './FlatsSection.css';
 
-const MAX_FLATS_DISPLAYED = 10;
+const DEFAULT_FLATS_DISPLAYED = 10;
 
-function FlatsSection() {
-    const displayedFlats = flats.slice(0, MAX_FLATS_DISPLAYED);
+function FlatsSection({ limit = DEFAULT_FLATS_DISPLAYED }) {
+    const displayedFlats = flats.slice(0, limit);
 
     return (
         <section>
