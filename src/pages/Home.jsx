@@ -8,7 +8,7 @@ function Home() {
     <>
       <Hero />
       <About />
-      <FlatsSection />
+      <FlatsSection limit={4} />
       <AgentsSection />
     </>
   );
