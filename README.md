@@ -45,7 +45,10 @@ Nido Estudiantil Granada es una aplicación web desarrollada en React que simula
 El objetivo principal del proyecto ha sido diseñar y desarrollar una experiencia web moderna, intuitiva y responsive que permita a futuros estudiantes conocer la ciudad, descubrir alojamientos disponibles y acceder a información relevante sobre la inmobiliaria y su entorno.
 
 El proyecto ha sido desarrollado siguiendo una metodología de trabajo colaborativa basada en GitHub, control de versiones mediante Git, organización de tareas y despliegue final en Vercel.
-El proyecto se está desarrollando como práctica de trabajo colaborativo utilizando metodologías ágiles y herramientas profesionales del entorno web.
+
+Se ha creado como práctica de trabajo colaborativo utilizando metodologías ágiles y herramientas profesionales del entorno web.
+
+Ha sido diseñado siguiendo una línea visual moderna basada en contrastes oscuros, acentos en verde neón y una estructura modular que mantiene la coherencia entre las cinco páginas de la aplicación.
 
 ---
 
@@ -177,14 +180,7 @@ El código fuente se encuentra estructurado bajo una arquitectura modular y esca
 ```
 
 
-## 🧹 Buenas prácticas del equipo
 
-* Código limpio y legible.
-* Componentes reutilizables.
-* Nomenclatura consistente.
-* Conventional Commits.
-* Organización clara de carpetas.
-* Revisión colaborativa del trabajo.
 
 ## 👥 Equipo HABITATCODE
 
