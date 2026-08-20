@@ -98,7 +98,7 @@ const Restaurant = () => {
         <h1 className="restaurantTitle">{restaurantInfo.name}</h1>
         <p className="restaurantLocation">📍 {restaurantInfo.location}</p>
         <p className="restaurantSubtitle">
-          Menú tradicional de comida española
+          Menús tradicionales de comida española
         </p>
       </div>
 
@@ -116,9 +116,6 @@ const Restaurant = () => {
 
               <div className="mealInfo">
                 <h3 className="mealName">{spanishName}</h3>
-                <p className="mealRestaurantName">
-                  {restaurantInfo.name}
-                </p>
               </div>
             </div>
           );
