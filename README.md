@@ -68,8 +68,7 @@ El proyecto se está desarrollando como práctica de trabajo colaborativo utiliz
 
 [![Abrir Figma](https://img.shields.io/badge/Abrir%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/kGMiw6fHWw5FlYSuaTx8Gn/inmobiliaria?node-id=0-1&t=C4qasP6CdzPQim9E-0)
 
-<img width="1320" height="679" alt="FIGMA FINAL INMOBILIARIA" src="https://github.com/user-attachments/assets/62390282-3b10-4457-a384-5a1ddf34fc5c" />
-
+<img width="1290" height="673" alt="figma final definitivo" src="https://github.com/user-attachments/assets/a7bdad09-248d-4d4c-853d-c723db121925" />
 
 ---
 
