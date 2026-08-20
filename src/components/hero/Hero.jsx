@@ -1,4 +1,4 @@
-import './hero.css';
+import './Hero.css';
 import granadaImage from '../../assets/img/granada.png';
 
 function Hero() {

@@ -1,11 +1,14 @@
+
 import "./styles/App.css";
-import { PropertySearchBar } from "./components/search/organisms/PropertySearchBar";
-import About from "./components/About/About";
-import { AgentsSection } from "./components/agents/organisms/AgentsSection";
-import Footer from "./components/Footer/Footer";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
-import Hero from "./components/hero/Hero";
-import FlatsSection from "./components/FlatsSection/FlatsSection";
+import Footer from "./components/footer/Footer";
+
+import Home from "./pages/Home";
+import Agents from "./pages/Agents";
+import History from "./pages/History";
+import Flats from "./pages/Flats";
+import Restaurant from "./pages/Restaurant";
 
 function App() {
   return (
@@ -13,11 +16,13 @@ function App() {
       <Header />
 
       <main>
-        <Hero />
-        {/* <PropertySearchBar /> */}
-        <About />
-        <FlatsSection />
-        <AgentsSection />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/agents" element={<Agents />} />
+          <Route path="/history" element={<History />} />
+          <Route path="/flats" element={<Flats />} />
+          <Route path="/restaurant" element={<Restaurant />} />
+        </Routes>
       </main>
 
       <Footer />

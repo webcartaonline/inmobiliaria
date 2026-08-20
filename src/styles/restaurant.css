@@ -1,0 +1,71 @@
+body {
+  background-color: #c9c9c6;
+}
+
+.restaurantPage {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.restaurantLoading {
+  text-align: center;
+  padding: 50px;
+}
+
+.restaurantHeader {
+  margin-bottom: 30px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 15px;
+}
+
+.restaurantTitle {
+  font-size: 2.2rem;
+  margin: 0 0 5px 0;
+  color: black;
+}
+
+.restaurantLocation {
+  font-size: 1.1rem;
+  margin: 0;
+  color: black;
+}
+
+.restaurantSubtitle {
+  margin-top: 5px;
+  color: black;
+}
+
+.restaurantGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.mealCard {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.mealImage {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.mealInfo {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mealName {
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
