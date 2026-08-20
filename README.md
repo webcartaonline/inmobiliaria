@@ -131,7 +131,7 @@ El código fuente se encuentra estructurado bajo una arquitectura modular y esca
 ├── package.json
 └── vite.config.js
 
-
+```
 
 
 ## 🧹 Buenas prácticas del equipo
