@@ -1,16 +1,14 @@
-import { PropertySearchBar } from "../components/search/organisms/PropertySearchBar";
-import About from "../components/About/About";
-import { AgentsSection } from "../components/agents/organisms/AgentsSection";
-import Hero from "../components/hero/Hero";
-import FlatsSection from "../components/FlatsSection/FlatsSection";
+import Hero from '../components/hero/Hero';
+import About from '../components/about/About';
+import FlatsSection from '../components/flatsSection/FlatsSection';
+import { AgentsSection } from '../components/agents/organisms/AgentsSection';
 
 function Home() {
   return (
     <>
       <Hero />
-      {/* <PropertySearchBar /> */}
       <About />
-      <FlatsSection />
+      <FlatsSection limit={4} />
       <AgentsSection />
     </>
   );

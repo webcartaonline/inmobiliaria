@@ -2,9 +2,9 @@ import teamPhoto from '../../assets/img/team.jpg';
 import './About.css';
 
 const STATS = [
-  { number: '12 AÑOS', label: 'EN GRANADA' },
-  { number: '300+',    label: 'PISOS GESTIONADOS' },
-  { number: '1200+',   label: 'ESTUDIANTES ALOJADOS' },
+  { number: '12', unit: 'AÑOS', label: 'EN GRANADA' },
+  { number: '300', unit: '+', label: 'PISOS GESTIONADOS' },
+  { number: '1200', unit: '+', label: 'ESTUDIANTES ALOJADOS' },
 ];
 
 function About() {
@@ -32,9 +32,12 @@ function About() {
           </p>
 
           <div className="aboutStats">
-            {STATS.map(({ number, label }) => (
-              <div key={label}>
-                <p className="aboutStatNumber">{number}</p>
+            {STATS.map(({ number, unit, label }) => (
+              <div className="aboutStatItem" key={label}>
+                <p className="aboutStatNumber">
+                  {number}
+                  <span className="aboutStatUnit">{unit}</span>
+                </p>
                 <p className="aboutStatLabel">{label}</p>
               </div>
             ))}
