@@ -59,6 +59,22 @@ El proyecto se está desarrollando como práctica de trabajo colaborativo utiliz
 <img width="1290" height="673" alt="figma final definitivo" src="https://github.com/user-attachments/assets/a7bdad09-248d-4d4c-853d-c723db121925" />
 
 ---
+¿En qué consiste el ejercicio?
+
+El reto planteado consistía en construir una aplicación web completa utilizando React, aplicando buenas prácticas de desarrollo frontend y trabajo en equipo.
+
+La solución debía incluir:
+
+Diseño previo en Figma.
+Navegación mediante React Router.
+Estructura semántica con Header, Main y Footer.
+Diseño responsive.
+Consumo de una API externa.
+Organización del código mediante componentes reutilizables.
+Uso de GitHub, conventional commits y despliegue en producción.
+
+
+
 
 ## 🚀 Enlaces del proyecto
 
