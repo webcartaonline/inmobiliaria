@@ -1,23 +1,21 @@
 import { FieldLabel } from "../atoms/FieldLabel";
 import { Select } from "../atoms/Select";
 
-export function NeighborhoodFilter({ value, options, onChange }) {
+export function SortFilter({ value, options, onChange }) {
   return (
     <div className="searchField">
-      <FieldLabel htmlFor="neighborhood">
-        Distrito
+      <FieldLabel htmlFor="sortBy">
+        Ordenar por
       </FieldLabel>
 
       <Select
-        id="neighborhood"
+        id="sortBy"
         value={value}
         onChange={(event) => onChange(event.target.value)}
       >
-        <option value="all">Todos los distritos</option>
-
         {options.map((option) => (
           <option key={option.value} value={option.value}>
-            {option.label} ({option.count})
+            {option.label}
           </option>
         ))}
       </Select>

@@ -1,9 +1,18 @@
+import { PropertySearchBar } from "../components/search/organisms/PropertySearchBar";
+import About from "../components/About/About";
+import { AgentsSection } from "../components/agents/organisms/AgentsSection";
+import Hero from "../components/hero/Hero";
+import FlatsSection from "../components/FlatsSection/FlatsSection";
+
 function Home() {
   return (
-    <main>
-      <h1>Inicio</h1>
-      <p>Página de inicio en construcción.</p>
-    </main>
+    <>
+      <Hero />
+      {/* <PropertySearchBar /> */}
+      <About />
+      <FlatsSection />
+      <AgentsSection />
+    </>
   );
 }
 

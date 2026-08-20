@@ -1,24 +1,14 @@
-import "./nav.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import './nav.css';
 
 function Nav() {
   return (
     <nav className="nav">
-      <NavLink to="/" className="navLink">
-        Inicio
-      </NavLink>
-      <NavLink to="/flats" className="navLink">
-        Pisos
-      </NavLink>
-      <NavLink to="/agents" className="navLink">
-        Agentes
-      </NavLink>
-      <a href="#contacto" className="navLink">
-        Contacto
-      </a>
-      <a className="navCta" href="mailto:info@nidoestudiantil.com">
-        Reservar cita
-      </a>
+      <Link to="/" className="navLink">Inicio</Link>
+      <Link to="/agents" className="navLink">Agentes</Link>
+      <Link to="/history" className="navLink">Nuestra Historia</Link>
+      <Link to="/flats" className="navLink">Pisos</Link>
+      <Link to="/restaurant" className="navLink">Restaurante</Link>
     </nav>
   );
 }
