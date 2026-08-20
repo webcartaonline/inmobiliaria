@@ -59,7 +59,8 @@ Ha sido diseñado siguiendo una línea visual moderna basada en contrastes oscur
 
 [![Abrir Figma](https://img.shields.io/badge/Abrir%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/kGMiw6fHWw5FlYSuaTx8Gn/inmobiliaria?node-id=0-1&t=C4qasP6CdzPQim9E-0)
 
-<img width="1290" height="673" alt="figma final definitivo" src="https://github.com/user-attachments/assets/a7bdad09-248d-4d4c-853d-c723db121925" />
+<img width="1152" height="694" alt="FIGMA INMOBILIA RES" src="https://github.com/user-attachments/assets/7651bc6e-9c7b-4e6b-b514-5170480bc8f5" />
+
 
 ---
 ¿En qué consiste el ejercicio?
