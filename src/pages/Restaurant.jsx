@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "../styles/Restaurant.css";
+import "../styles/restaurant.css";
 
 const translations = {
   "Air fryer patatas bravas": "Patatas bravas en freidora de aire",

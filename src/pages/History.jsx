@@ -1,5 +1,5 @@
-import granadaCity from "../assets/img/granada-city.jpg";
-import granadaStreet from "../assets/img/granada-street.jpg";
+import granadaCity from "../assets/img/granadaCity.jpg";
+import granadaStreet from "../assets/img/granadaStreet.jpg";
 import TimelineItem from "../components/timelineItem/TimelineItem";
 import ValueCard from "../components/valueCard/ValueCard";
 import "../styles/history.css";

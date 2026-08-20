@@ -1,5 +1,5 @@
 import { agents } from "../data/agents";
-import teamImage from "../assets/img/RealEstateTeamInOffice.webp";
+import teamImage from "../assets/img/realEstateTeamInOffice.webp";
 import "../styles/agents.css";
 
 const teamOrder = [
