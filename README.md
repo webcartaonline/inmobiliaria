@@ -73,7 +73,29 @@ Consumo de una API externa.
 Organización del código mediante componentes reutilizables.
 Uso de GitHub, conventional commits y despliegue en producción.
 
+¿Qué hemos conseguido?
 
+Hemos desarrollado una aplicación compuesta por cinco páginas principales, todas integradas bajo una misma identidad visual y conectadas mediante un sistema de navegación común.
+
+🏠 Home
+
+Página principal de bienvenida donde se presenta la ciudad de Granada, información destacada de la inmobiliaria, algunos alojamientos recomendados y acceso al resto de secciones del sitio.
+
+👥 Agentes
+
+Presentación del equipo inmobiliario mediante fichas informativas con imagen, nombre y datos representativos de cada agente.
+
+📖 Historia
+
+Sección corporativa que explica el origen, evolución y valores de Nido Estudiantil Granada, reforzando la identidad y confianza de la marca.
+
+🏢 Pisos
+
+Catálogo visual de pisos compartidos y habitaciones disponibles para estudiantes, mostrando información relevante de cada alojamiento.
+
+🍽️ Restaurante
+
+Página desarrollada mediante el consumo de la API pública TheMealDB, donde se muestran diferentes platos y opciones gastronómicas de un restaurante muy recomendado.
 
 
 ## 🚀 Enlaces del proyecto
