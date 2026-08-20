@@ -1,22 +1,14 @@
 import { Link } from "react-router-dom";
-import "./nav.css";
+import './nav.css';
 
 function Nav() {
   return (
     <nav className="nav">
-      <a href="#" className="navLink">
-        Inicio
-      </a>
-      <Link to="/flats" className="navLink">
-        Pisos
-      </Link>
-      <a href="#agentes" className="navLink">
-        Agentes
-      </a>
-      <a href="#" className="navLink">
-        Contacto
-      </a>
-      <button className="navCta">Reservar cita</button>
+      <Link to="/" className="navLink">Inicio</Link>
+      <Link to="/agents" className="navLink">Agentes</Link>
+      <Link to="/history" className="navLink">Nuestra Historia</Link>
+      <Link to="/flats" className="navLink">Pisos</Link>
+      <Link to="/restaurant" className="navLink">Restaurante</Link>
     </nav>
   );
 }
