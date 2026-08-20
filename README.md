@@ -37,19 +37,14 @@
 
 ---
 
-## ✨ Sobre el proyecto
+🏡 Nido Estudiantil Granada
+Sobre el proyecto
 
-**Nido Estudiantil Granada** nace con el objetivo de ofrecer una experiencia digital clara, moderna y cercana para estudiantes que buscan alojamiento compartido en Granada.
+Nido Estudiantil Granada es una aplicación web desarrollada en React que simula el portal digital de una inmobiliaria especializada en el alquiler de pisos compartidos para estudiantes en la ciudad de Granada.
 
-La web incluye:
+El objetivo principal del proyecto ha sido diseñar y desarrollar una experiencia web moderna, intuitiva y responsive que permita a futuros estudiantes conocer la ciudad, descubrir alojamientos disponibles y acceder a información relevante sobre la inmobiliaria y su entorno.
 
-* 🏠 Página de bienvenida a la ciudad.
-* 🏢 Información sobre la inmobiliaria y su trayectoria.
-* 👥 Presentación del equipo de agentes.
-* 🛏️ Catálogo de pisos y habitaciones disponibles.
-* 🔍 Buscador de alojamientos.
-* 📱 Diseño responsive pensado para escritorio y dispositivos móviles.
-
+El proyecto ha sido desarrollado siguiendo una metodología de trabajo colaborativa basada en GitHub, control de versiones mediante Git, organización de tareas y despliegue final en Vercel.
 El proyecto se está desarrollando como práctica de trabajo colaborativo utilizando metodologías ágiles y herramientas profesionales del entorno web.
 
 ---
