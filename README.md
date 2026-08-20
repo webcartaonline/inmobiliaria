@@ -109,17 +109,22 @@ Más allá de cumplir los requisitos técnicos, el objetivo del equipo es constr
 
 ---
 
-## 🗂️ Estructura prevista
-
-```text
-src/
-├── assets/
-├── components/
-├── pages/
-├── styles/
-├── App.jsx
-└── main.jsx
-```
+inmobiliaria/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   ├── styles/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+└── vite.config.js
 
 
 
