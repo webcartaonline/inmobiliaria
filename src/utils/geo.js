@@ -1,4 +1,3 @@
-// Great-circle distance (haversine) between two { lat, lng } points, in km.
 const EARTH_RADIUS_KM = 6371;
 
 const toRadians = (degrees) => (degrees * Math.PI) / 180;

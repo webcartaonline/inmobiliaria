@@ -1,8 +1,6 @@
 import dataFlats from './dataFlats.json';
 import { universityCenterGroups } from './universityCenters';
 
-// Maps each search campus group to its matching campus name inside dataFlats.json,
-// so we can reuse the coordinates already stored there.
 const CAMPUS_NAME_BY_GROUP_ID = {
     cityCenterCampus: 'Campus Centro (Hospital Real)',
     cartujaCampus: 'Campus de Cartuja',
@@ -18,7 +16,6 @@ const coordinatesByCampusName = Object.fromEntries(
     ]),
 );
 
-// Coordinates of every selectable campus, keyed by its group id.
 export const campusCoordinatesByGroupId = Object.fromEntries(
     Object.entries(CAMPUS_NAME_BY_GROUP_ID).map(([groupId, campusName]) => [
         groupId,
@@ -26,7 +23,6 @@ export const campusCoordinatesByGroupId = Object.fromEntries(
     ]),
 );
 
-// Resolves a selected faculty/school id to the coordinates of its campus.
 export const campusCoordinatesByCenterId = Object.fromEntries(
     universityCenterGroups.flatMap((group) =>
         group.centers.map((center) => [

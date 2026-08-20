@@ -5,8 +5,6 @@ import { haversineKm } from '../utils/geo';
 
 const ALL_DISTRICTS = 'all';
 
-// Available "Ordenar por" criteria. The distance option is only offered once a
-// campus is selected, since distance is measured against it.
 export const SORT_BY = {
     DEFAULT: 'default',
     PRICE_ASC: 'priceAsc',
@@ -27,7 +25,6 @@ const noFilters = {
     maximumPrice: '',
 };
 
-// Highest straight-line distance (rounded up, in km) from any flat to a campus.
 function maxDistanceToCampus(campusCoordinates) {
     const distances = flats.map((flat) =>
         haversineKm(flat.coordinates, campusCoordinates),
@@ -36,8 +33,6 @@ function maxDistanceToCampus(campusCoordinates) {
     return Math.ceil(Math.max(...distances));
 }
 
-// A flat is kept only when it satisfies every active filter except the one asked
-// to ignore, which lets each facet count the flats the other filters allow.
 function matchesFilters(flat, filters, { ignore } = {}) {
     const withinDistance =
         ignore === 'distance' ||
@@ -65,7 +60,6 @@ export function useFlatFilters() {
     const selectedCampusCoordinates =
         campusCoordinatesByCenterId[filters.universityCenterId] ?? null;
 
-    // Attach the distance to the selected campus (null while none is chosen).
     const flatsWithDistance = useMemo(
         () =>
             flats.map((flat) => ({
@@ -81,13 +75,11 @@ export function useFlatFilters() {
         ? maxDistanceToCampus(selectedCampusCoordinates)
         : 0;
 
-    // Flats that pass every active filter, before ordering.
     const filteredFlats = useMemo(
         () => flatsWithDistance.filter((flat) => matchesFilters(flat, filters)),
         [flatsWithDistance, filters],
     );
 
-    // The same flats, ordered by the chosen "Ordenar por" criterion.
     const sortedFlats = useMemo(() => {
         const flatsToSort = [...filteredFlats];
 
@@ -111,7 +103,6 @@ export function useFlatFilters() {
         }
     }, [filteredFlats, sortBy]);
 
-    // Offer the distance ordering only when a campus is selected.
     const sortOptions = selectedCampusCoordinates
         ? [
               ...baseSortOptions,
@@ -119,8 +110,6 @@ export function useFlatFilters() {
           ]
         : baseSortOptions;
 
-    // District options reflect the flats allowed by the other filters, each with
-    // its own count, so choosing one filter never leaves stale districts behind.
     const districtOptions = useMemo(() => {
         const countByDistrict = new Map();
 
@@ -144,8 +133,6 @@ export function useFlatFilters() {
             .sort((a, b) => a.label.localeCompare(b.label, 'es'));
     }, [flatsWithDistance, filters]);
 
-    // Keep the selection coherent: if a district stops matching the other
-    // filters, fall back to "all" instead of showing an empty result.
     useEffect(() => {
         if (filters.neighborhood === ALL_DISTRICTS) return;
 
@@ -161,8 +148,6 @@ export function useFlatFilters() {
         }
     }, [districtOptions, filters.neighborhood]);
 
-    // If distance ordering was active and the campus is cleared, fall back to
-    // the default order so the dropdown never shows an option it no longer has.
     useEffect(() => {
         if (!selectedCampusCoordinates && sortBy === SORT_BY.DISTANCE_ASC) {
             setSortBy(SORT_BY.DEFAULT);
@@ -175,8 +160,6 @@ export function useFlatFilters() {
         setFilters((current) => ({
             ...current,
             universityCenterId: centerId,
-            // The distance filter only makes sense against a campus, so it is
-            // reset to "no limit" (its max) when one is chosen, off otherwise.
             maximumDistanceKm: campusCoordinates
                 ? maxDistanceToCampus(campusCoordinates)
                 : null,
