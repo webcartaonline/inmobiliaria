@@ -107,7 +107,7 @@ Página desarrollada mediante el consumo de la API pública TheMealDB, donde se 
 
 | Recurso | Acceso |
 |:---|:---:|
-| 🌐 **Demo en Vercel** | [Ver aplicación](https://tu-vercel.vercel.app) |
+| 🌐 **Demo en Vercel** | [Ver aplicación](https://inmobiliaria-kappa-lake.vercel.app/) |
 | 💻 **Repositorio GitHub** | [Abrir repositorio](https://github.com/webcartaonline/inmobiliaria.git) |
 | 📋 **GitHub Project** | [Ver tablero del proyecto](https://github.com/users/webcartaonline/projects/2) |
 | 🎨 **Diseño en Figma** | [Ver prototipo](https://www.figma.com/design/kGMiw6fHWw5FlYSuaTx8Gn/inmobiliaria?node-id=0-1&t=C4qasP6CdzPQim9E-0) |
