@@ -12,11 +12,8 @@ export function AgentsSection() {
       <div className="agentsContainer">
         <header className="agentsHeader">
           <h2 id="agentsTitle" className="agentsTitle">
-            Conoce a nuestro equipo
+            Nuestros agentes
           </h2>
-          <p className="agentsSubtitle">
-            Los agentes que te acompañan en todo el proceso
-          </p>
         </header>
 
         <div className="agentsGrid">
